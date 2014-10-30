@@ -94,13 +94,13 @@ class FSM
        "};" \n
        "" \n
        "_lastcheck = time;" \n
-       "" \n
-       "//Group clean (Local)" \n
-       "{" \n
-       "	if(local _x && {(count units _x == 0)}) then {" \n
-       "		deleteGroup _x;" \n
-       "	};" \n
-       "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
+	   "" \n
+	   "//Group clean (Local)" \n
+	   "{" \n
+	   "	if(local _x && {(count units _x == 0)}) then {" \n
+	   "		deleteGroup _x;" \n
+	   "	};" \n
+	   "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {

@@ -61,6 +61,18 @@ switch (_var) do
 	case "life_inv_defusekit": {(localize "STR_Item_DefuseKit")};
 	case "life_inv_storagesmall": {(localize "STR_Item_StorageBS")};
 	case "life_inv_storagebig": {(localize "STR_Item_StorageBL")};
+	case "life_inv_sperryliteore": {(localize "STR_Item_SperryliteOre")};
+	case "life_inv_platine_u": {(localize "STR_Item_PlatineU")};
+	case "life_inv_platine_r": {(localize "STR_Item_PlatineR")};
+	case "life_inv_iron_ingot": {(localize "STR_Item_Iron_Ingot")};
+	case "life_inv_copper_ingot": {(localize "STR_Item_Copper_Ingot")};
+	case "life_inv_gold_u": {(localize "STR_Item_Gold")};
+	case "life_inv_gold_r": {(localize "STR_Item_GoldR")};
+	case "life_inv_gold_ingot": {(localize "STR_Item_Gold_Ingot")};
+	case "life_inv_chanvre": {(localize "STR_Item_Chanvre")};
+	case "life_inv_morphine": {(localize "STR_Item_Morphine")};
+	case "life_inv_morphine_ill": {(localize "STR_Item_Morphine_Ill")};
+	case "life_inv_coca": {(localize "STR_Item_Coca")};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};
@@ -85,4 +97,14 @@ switch (_var) do
 	case "license_civ_cement": {(localize "STR_License_Cement")};
 	case "license_med_air": {(localize "STR_License_Pilot")};
 	case "license_civ_home": {(localize "STR_License_Home")};
+	case "license_civ_sperrylite": {(localize "STR_License_Sperrylite")};
+	case "license_civ_platine": {(localize "STR_License_Platine")};
+	case "license_civ_fondiron": {(localize "STR_License_FondIron")};
+	case "license_civ_fondcopper": {(localize "STR_License_FondCopper")};
+	case "license_civ_gold": {(localize "STR_License_Gold")};
+	case "license_civ_fondgold": {(localize "STR_License_FondGold")};
+	case "license_civ_chanvre": {(localize "STR_License_Chanvre")};
+	case "license_civ_morphine": {(localize "STR_License_Morphine")};
+	case "license_civ_morphine_ill": {(localize "STR_License_Morphine_Ill")};
+	case "license_civ_coca": {(localize "STR_License_Coca")};
 };

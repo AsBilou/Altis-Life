@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_copLoadout.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -11,8 +12,10 @@ _handle = [] spawn life_fnc_stripDownPlayer;
 waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
-player addUniform "U_Rangemaster";
-player addVest "V_Rangemaster_belt";
+//player addUniform "demian2435_police_man_uniform";
+player addUniform "B_uni_PR";
+
+player addVest "demian2435_police_belt";
 
 player addWeapon "hgun_P07_snds_F";
 player addMagazine "16Rnd_9x21_Mag";

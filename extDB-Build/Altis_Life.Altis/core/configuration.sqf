@@ -32,12 +32,12 @@ life_removeWanted = false;
 life_action_gathering = false;
 
 //Persistent Saving
-__CONST__(life_save_civ,FALSE); //Save weapons for civs?
-__CONST__(life_save_yinv,FALSE); //Save Y-Inventory for players?
+__CONST__(life_save_civ,TRUE); //Save weapons for civs?
+__CONST__(life_save_yinv,TRUE); //Save Y-Inventory for players?
 
 //Revive constant variables.
 __CONST__(life_revive_cops,TRUE); //Set to false if you don't want cops to be able to revive downed players.
-__CONST__(life_revive_fee,250); //Fee for players to pay when revived.
+__CONST__(life_revive_fee,2500); //Fee for players to pay when revived.
 
 //House Limit
 __CONST__(life_houseLimit,5); //Maximum amount of houses a player can buy (TODO: Make Tiered licenses).
@@ -107,8 +107,6 @@ switch (playerSide) do
 /*
 	Master Array of items?
 */
-life_vShop_rentalOnly = ["B_MRAP_01_hmg_F","B_G_Offroad_01_armed_F"];
-__CONST__(life_vShop_rentalOnly,life_vShop_rentalOnly); //These vehicles can never be bought and only 'rented'. Used as a balancer & money sink. If you want your server to be chaotic then fine.. Remove it..
 
 life_inv_items = 
 [
@@ -159,7 +157,19 @@ life_inv_items =
 	"life_inv_boltcutter",
 	"life_inv_defusekit",
 	"life_inv_storagesmall",
-	"life_inv_storagebig"
+	"life_inv_storagebig",
+	"life_inv_sperryliteore",
+	"life_inv_platine_u",
+	"life_inv_platine_r",
+	"life_inv_iron_ingot",
+	"life_inv_copper_ingot",
+	"life_inv_gold_u",
+	"life_inv_gold_r",
+	"life_inv_gold_ingot",
+	"life_inv_chanvre",
+	"life_inv_morphine",
+	"life_inv_morphine_ill",
+	"life_inv_coca"
 ];
 
 //Setup variable inv vars.
@@ -189,7 +199,17 @@ life_licenses =
 	["license_civ_salt","civ"],
 	["license_civ_cement","civ"],
 	["license_med_air","med"],
-	["license_civ_home","civ"]
+	["license_civ_home","civ"],
+	["license_civ_sperrylite","civ"],
+	["license_civ_platine","civ"],
+	["license_civ_fondiron","civ"],
+	["license_civ_fondcopper","civ"],
+	["license_civ_gold","civ"],
+	["license_civ_fondgold","civ"],
+	["license_civ_chanvre","civ"],
+	["license_civ_morphine","civ"],
+	["license_civ_morphine_ill","civ"],
+	["license_civ_coca","civ"]
 ];
 
 //Setup License Variables
@@ -238,7 +258,17 @@ sell_array =
 	["fuelF",500],
 	["spikeStrip",1200],
 	["cement",1950],
-	["goldbar",95000]
+	["goldbar",95000],
+	["platine_u",1000],
+	["platine_r",1900],
+	["goldingot",1950],
+	["iron_ingot",1950],
+	["copper_ingot",1950],
+	["gold_r",1950],
+	["chanvre",1950],
+	["morphine",1950],
+	["morphineill",1950],
+	["coca",1950]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -342,7 +372,9 @@ life_garage_prices =
 	["C_Boat_Civil_01_police_F",3500],
 	["B_Boat_Armed_01_minigun_F",16500],
 	["B_SDV_01_F",25000],
-	["B_MRAP_01_F",7500]
+	["B_MRAP_01_F",7500],
+	["DAR_ExplorerPolice",20000],
+	["DAR_ExplorerPoliceStealth",20000]
 ];
 __CONST__(life_garage_prices,life_garage_prices);
 
@@ -371,6 +403,8 @@ life_garage_sell =
 	["C_Boat_Civil_01_police_F",4950],
 	["B_Boat_Armed_01_minigun_F",21000],
 	["B_SDV_01_F",45000],
-	["B_MRAP_01_F",10000]
+	["B_MRAP_01_F",10000],
+	["DAR_ExplorerPolice",20000],
+	["DAR_ExplorerPoliceStealth",20000]
 ];
 __CONST__(life_garage_sell,life_garage_sell);

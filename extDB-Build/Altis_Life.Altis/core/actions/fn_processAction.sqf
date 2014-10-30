@@ -24,6 +24,16 @@ _itemInfo = switch (_type) do
 	case "cocaine": {["cocaine","cocainep",1500,(localize "STR_Process_Cocaine")];};
 	case "marijuana": {["cannabis","marijuana",500,(localize "STR_Process_Marijuana")];};
 	case "cement": {["rock","cement",350,(localize "STR_Process_Cement")];};
+	case "sperrylite": {["sperryliteore","platine_u",700,(localize "STR_Process_Platine_U")];};
+	case "platine": {["platine_u","platine_r",750,(localize "STR_Process_Platine_R")];};
+	case "fondiron": {["iron_r","iron_ingot",750,(localize "STR_Process_Iron_Ingot")];};
+	case "fondcopper": {["copper_r","copper_ingot",750,(localize "STR_Process_Copper_Ingot")];};
+	case "gold": {["goldore","gold_r",750,(localize "STR_Process_Gold")];};
+	case "fondgold": {["gold_r","goldingot",750,(localize "STR_Process_Gold_Ingot")];};
+	case "chanvre": {["cannabis","chanvre",750,(localize "STR_Process_Chanvre")];};
+	case "morphine": {["heroinu","morphine",750,(localize "STR_Process_Morphine")];};
+	case "morphineill": {["heroinu","morphineill",750,(localize "STR_Process_Morphine_Ill")];};
+	case "coca": {["cocaine","coca",750,(localize "STR_Process_Coca")];};
 	default {[];};
 };
 

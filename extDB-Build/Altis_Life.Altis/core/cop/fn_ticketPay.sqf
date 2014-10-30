@@ -10,6 +10,12 @@ if(life_cash < life_ticket_val) exitWith
 {
 	if(life_atmcash < life_ticket_val) exitWith 
 	{
+		if((life_atmcash+life_cash) < life_ticket_val) exitWith 
+		{
+			hint localize "STR_Cop_Ticket_NotEnoughAll";
+			[[1,"STR_Cop_Ticket_NotEnoughNOTFAll",true,[profileName]],"life_fnc_broadcast",life_ticket_cop,false] spawn life_fnc_MP;
+			closeDialog 0;
+		};
 		hint localize "STR_Cop_Ticket_NotEnough";
 		[[1,"STR_Cop_Ticket_NotEnoughNOTF",true,[profileName]],"life_fnc_broadcast",life_ticket_cop,false] spawn life_fnc_MP;
 		closeDialog 0;

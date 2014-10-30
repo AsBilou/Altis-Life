@@ -44,13 +44,9 @@ for "_i" from 0 to count(_colorArray)-1 do {
 	};
 };
 
-if(_className in (__GETC__(life_vShop_rentalOnly))) then {
-	ctrlEnable [2309,false];
-} else {
 	if(!(life_veh_shop select 3)) then {
 		ctrlEnable [2309,true];
 	};
-};
 
 lbSetCurSel[2304,0];
 if((lbSize _ctrl)-1 != -1) then {

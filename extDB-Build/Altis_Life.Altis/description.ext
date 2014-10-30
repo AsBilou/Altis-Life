@@ -1,6 +1,6 @@
 author = "Tonic";
 onLoadName = "Altis Life RPG v3.1.4.8";
-onLoadMission = "A RPG game mode developed by Tonic";
+onLoadMission = "A RPG game mode developed by Tonic. Modified by Bilou, Narog, Tango and Matter";
 joinUnassigned = 1;
 respawn = BASE;
 respawndelay = 5;
@@ -46,6 +46,18 @@ class CfgSounds
 		sound[] = {"\sounds\Siren_Long.ogg", 1.0, 1};
 		titles[] = {};
 	};
+	class SirenLong2
+	{
+		name = "SirenLong2";
+		sound[] = {"\sounds\Siren_Long2.ogg", 1.0, 1};
+		titles[] = {};
+	};
+	class SirenLong3
+	{
+		name = "SirenLong3";
+		sound[] = {"\sounds\Siren_Long3.ogg", 1.0, 1};
+		titles[] = {};
+	};
 	
 	class tazersound
 	{
@@ -66,9 +78,9 @@ class CfgDebriefing
 {
 	class NotWhitelisted
 	{
-		title = "Mission Failed";
-		subtitle = "You are not white-listed to use this slot";
-		description = "You are not allowed to use this slot because you do not have the appropriate permissions, try another slot.";
+		title = "Echec Mission";
+		subtitle = "Vous n'etes pas whitelisté pour utiliser ce slot";
+		description = "Vous n'etes pas authorisé à utiliser ce slot car vous n'avez pas les permissions nécessaire, essayez un autre slot.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -86,9 +98,9 @@ class CfgDebriefing
 	
 	class SpyGlass
 	{
-		title = "The SpyGlass sees you";
-		subTitle = "You were detected by the SpyGlass";
-		description = "You were detected for cheating and have been reported to the server. Enjoy your day.";
+		title = "SpyGlass vous observe";
+		subTitle = "Vous avez été détecté par SpyGlass";
+		description = "Vous avez été détecté pour triche et vous avez été signalé au admin. Bonne journée.";
 		pictureBackground = "";
 		picture = "";
 		pictureColor[] = {0,0.3,0.6,1};
@@ -99,7 +111,7 @@ class CfgNotifications
 {
 	class MedicalRequestEmerg
 	{
-		title = "EMS Requested";
+		title = "Urgence Médical";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 5;
@@ -108,7 +120,7 @@ class CfgNotifications
 	
 	class DeliveryAssigned
 	{
-		title = "Delivery Job Accepted";
+		title = "Mission de Livraison Accepté";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcon_ca.paa";
 		description = "%1";
 		duration = 10;
@@ -117,7 +129,7 @@ class CfgNotifications
 	
 	class DeliveryFailed
 	{
-		title = "Delivery Job Failed";
+		title = "Mission de Livraison Echoué";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskiconfailed_ca.paa";
 		description = "%1";
 		duration = 7;
@@ -126,7 +138,7 @@ class CfgNotifications
 	
 	class DeliverySucceeded
 	{
-		title = "Delivery Job Completed";
+		title = "Mission de Livraison Réussite";
 		iconPicture = "\A3\ui_f\data\map\mapcontrol\taskIcondone_ca.paa";
 		description = "%1";
 		duration = 6;
@@ -135,7 +147,7 @@ class CfgNotifications
 	
 	class TextMessage
 	{
-		title = "Received A Text Message";
+		title = "Nouveau SMS";
 		iconPicture = "icons\messagenew.paa";
 		description = "%1";
 		duration = 10;
@@ -144,7 +156,7 @@ class CfgNotifications
 	
 	class PoliceDispatch
 	{
-		title = "911 Dispatch Center";
+		title = "Appel D'Urgence";
 		iconPicture = "icons\messagepolice.paa";
 		description = "%1";
 		duration = 10;
@@ -162,7 +174,7 @@ class CfgNotifications
 	
 	class AdminMessage
 	{
-		title = "Admin Message";
+		title = "Message Admin";
 		iconPicture = "icons\messageadmin.paa";
 		description = "%1";
 		duration = 10;

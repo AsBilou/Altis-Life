@@ -205,6 +205,22 @@ switch (_vehicle) do
 			case 0: {_color = "Black"};
 		};
 	};
+	
+	case "DAR_ExplorerPolice":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Cop"};
+		};
+	};
+	
+	case "DAR_ExplorerPoliceStealth":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Stealth Black"};
+		};
+	};
 };
 
 _color;

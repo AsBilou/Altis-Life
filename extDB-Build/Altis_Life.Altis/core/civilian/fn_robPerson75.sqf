@@ -1,5 +1,5 @@
 /*
-	File: fn_robPerson.sqf
+	File: fn_robPerson75.sqf
 	Author: Bryan "Tonic" Boardwine
 	
 	Description:
@@ -12,10 +12,10 @@ if(isNull _robber) exitWith {}; //No one to return it to?
 if(life_cash > 0) then
 {
 	//TODO : Prendre 25% de la somme.
-	[[life_cash/4],"life_fnc_robReceive",_robber,false] spawn life_fnc_MP;
+	[[3*life_cash/4],"life_fnc_robReceive",_robber,false] spawn life_fnc_MP;
 	[[getPlayerUID _robber,_robber getVariable["realname",name _robber],"211"],"life_fnc_wantedAdd",false,false] spawn life_fnc_MP;
-	[[1,"STR_NOTF_Robbed",true,[_robber getVariable["realname",name _robber],profileName,[life_cash/4] call life_fnc_numberText]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
-	life_cash = life_cash-(life_cash/4);
+	[[1,"STR_NOTF_Robbed",true,[_robber getVariable["realname",name _robber],profileName,[3*life_cash/4] call life_fnc_numberText]],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
+	life_cash = life_cash-(3*life_cash/4);
 }
 	else
 {

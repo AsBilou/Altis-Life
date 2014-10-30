@@ -65,6 +65,18 @@ switch (_mode) do
 			case "defusekit": {"life_inv_defusekit"};
 			case "storagesmall": {"life_inv_storagesmall"};
 			case "storagebig": {"life_inv_storagebig"};
+			case "sperryliteore": {"life_inv_sperryliteore"};
+			case "platine_u": {"life_inv_platine_u"};
+			case "platine_r": {"life_inv_platine_r"};
+			case "iron_ingot": {"life_inv_iron_ingot"};
+			case "copper_ingot": {"life_inv_copper_ingot"};
+			case "goldore": {"life_inv_gold_u"};
+			case "gold_r": {"life_inv_gold_r"};
+			case "goldingot": {"life_inv_gold_ingot"};
+			case "chanvre": {"life_inv_chanvre"};
+			case "morphine": {"life_inv_morphine"};
+			case "morphineill": {"life_inv_morphine_ill"};
+			case "coca": {"life_inv_coca"};
 		};
 	};
 	
@@ -121,6 +133,18 @@ switch (_mode) do
 			case "life_inv_defusekit": {"defusekit"};
 			case "life_inv_storagesmall": {"storagesmall"};
 			case "life_inv_storagebig": {"storagebig"};
+			case "life_inv_sperryliteore": {"sperryliteore"};
+			case "life_inv_platine_u": {"platine_u"};
+			case "life_inv_platine_r": {"platine_r"};
+			case "life_inv_iron_ingot": {"iron_ingot"};
+			case "life_inv_copper_ingot": {"copper_ingot"};
+			case "life_inv_gold_u": {"goldore"};
+			case "life_inv_gold_r": {"gold_r"};
+			case "life_inv_gold_ingot": {"goldingot"};
+			case "life_inv_chanvre": {"chanvre"};
+			case "life_inv_morphine": {"morphine"};
+			case "life_inv_morphine_ill": {"morphineill"};
+			case "life_inv_coca": {"coca"};
 		};
 	};
 };

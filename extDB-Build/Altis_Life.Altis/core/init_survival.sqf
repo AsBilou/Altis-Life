@@ -105,3 +105,13 @@
 		};
 	};
 };
+
+//TODO améliorer en transformant les marcker en invisible puis utiliser "mymarker" setMarkerType "mil_pickup" pour les faire réaparaitre.
+_illegalmarkerscops = ["gold_bar_dealer","turtle_1_name_2","turtle_3","turle_dealer_1","Dealer_1","gang_area_2","chop_shop_1","cocaine processing","turtle_1_name_1","turtle_2","turle_dealer","Weed_p_1","gang_area_1","Dealer_1_4","Rebelop","turle_dealer_2","Rebelop_1","gang_area_3","chop_shop_4","Dealer_1_3","heroin_p","Rebelop_2","chop_shop_2","illegal_morphine_process"]; 
+_illegalmarkersciv = ["cocaine processing","Dealer_1","Weed_p_1","Dealer_1_4","Dealer_1_3","heroin_p"];
+if (playerSide == west) then {
+	{ deleteMarkerLocal _x; } forEach _illegalmarkerscops;
+};
+if (!license_civ_rebel) then {
+	{ deleteMarkerLocal _x; } forEach _illegalmarkersciv;
+};

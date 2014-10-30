@@ -23,30 +23,49 @@ player createDiarySubject ["controls","Controls"];
 */
 	player createDiaryRecord["changelog",
 		[
+			"Change Log v0.2",
+				"
+					Alpha 1 : <br/><br/>
+					1. Ajout d'un nouveau métier, Platine.<br/>
+					2. Ajout de vetement policier avec les grades.<br/>
+					3. Modification du nom des véhicules pour plus de compréhenssion.<br/>
+					4. Supression des zones illégales sur la carte de la Police.
+				"
+		]
+	];
+	player createDiaryRecord["changelog",
+		[
+			"Change Log v0.1",
+				"
+					Alpha 1 : <br/><br/>
+					1. Mise en place du mod Altis Life.<br/>
+					2. Traduction de la carte.<br/>
+					3. Ajout du Mapping fait par Bilou.<br/>
+					4. Ajout des véhicules+vétement moddé.<br/>
+					5. Ajout des Grades sur les Nom des Policiers et sur leurs carte.<br/>
+					6. Changement de raccourcis pour mettre la sirène. (maj+f) au lieu de (f) (police/médecin uniquement)<br/>
+					7. Désactivation du Side Channel.<br/>
+					8. Sauvegarde des Armes/Inventaires pour Civils.<br/>
+				"
+		]
+	];
+	player createDiaryRecord["changelog",
+		[
 			"Official Change Log",
 				"
 					The official change log can be found on the BIS forums (search Altis Life RPG)
 				"
 		]
 	];
-	
-	player createDiaryRecord["changelog",
-		[
-			"Custom Change Log",
-				"
-					This section is meant for people doing their own edits to the mission, DO NOT REMOVE THE ABOVE.
-				"
-		]
-	];
 
 		player createDiaryRecord ["serverrules",
 		[
-			"Exploits", 
+			"Exploitation de Bug", 
 				"
-				These are considered exploits, and you will not be kicked, but banned.<br/><br/>
+				Ce qui suis est considéré comme de l'exploitation de bug. Vous ne serez pas Kické mais Banni !.<br/><br/>
 
-				1. Getting out of jail via any method other than paying bail or escaping via helicopter.<br/>
-				2. Killing yourself to get out of roleplay. Getting out of being tazed, restrained, arrested, jail, etc. If the log shows you got arrested, then you died, you will be banned. Do not pay bail and kill yourself for an easy ride home. Walk you lazy turd.<br/>
+				1. Sortir de prison par tout autres méthodes qu'en faisant son temps ou en s'échappant par hélicoptère.<br/>
+				2. Vous suicidez pendant une scène RP. Vous déconnectez en étant tazé, menotté, arreté, en prison, etc ... Si les logs montrent qui vous etes arrété et que vous mourrez ensuite, vous serez banni. Vous suicidez pour sortir de prison.<br/>
 				3. Duping items and/or money. If someone sends you an unobtainable amount of money right at the start of the game, report to an admin IMMEDIATELY and transfer said money to an admin. Do this ASAP or an admin could ban you if they see that much on you without question.<br/>
 				4. Using clearly hacked items. If a hacker comes in and spawns unobtainable items, you could be banned for using said items. Report the items to the admins immediately and stay away from them.<br/>
 				5. Abusing bugs or game mechanics for gain. Is there a replicating gun somewhere? Report it and leave it alone. If an admin catches you abusing the glitch, ban.<br/><br/>
@@ -551,12 +570,12 @@ player createDiarySubject ["controls","Controls"];
 				"
 				Y: Open Player Menu<br/>
 				U: Lock and unlock cars<br/>
-				F: Cop Siren (if cop)<br/>
+				Left Shift + F: Siren (Cop/Med)<br/>
 				T: Vehicle Trunk<br/>
 				Left Shift + R: Restrain (Cop Only)<br/>
 				Left Shift + G: Knock out / stun (Civ Only, used for robbing them)<br/>
 				Left Windows: Main Interaction key which is used for picking up items/money, gathering, interacting with cars (repair,etc) and for cops to interact with civilians. Can be rebound to a single key like H by pressing ESC->Configure->Controls->Custom->Use Action 10<br/>
-				Left Shift + L: Activates cop siren lights (as a cop).<br/>
+				Left Shift + L: Activates siren lights (Cop/Med).<br/>
 				Left Shift + H: Holster's your pistol<br/>
 				"
 		]

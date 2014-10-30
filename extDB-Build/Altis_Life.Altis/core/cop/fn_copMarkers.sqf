@@ -5,7 +5,7 @@
 	Description:
 	Marks cops on the map for other cops. Only initializes when the actual map is open.
 */
-private["_markers","_cops"];
+private["_markers","_cops","_rank"];
 _markers = [];
 _cops = [];
 
@@ -18,7 +18,20 @@ if(visibleMap) then {
 		_marker = createMarkerLocal [format["%1_marker",_x],visiblePosition _x];
 		_marker setMarkerColorLocal "ColorBlue";
 		_marker setMarkerTypeLocal "Mil_dot";
-		_marker setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
+		_rank = switch (_x getVariable ["rank",rank _x]) do {
+					case 1: {"Recrue"};
+					case 2: {"Agent"}; 
+					case 3: {"Caporal"};
+					case 4: {"Sergent"};
+					case 5: {"Lieutenant"};
+					case 6: {"Capitaine"};
+					case 7: {"Major"};
+					case 8: {"Colonel"};
+					case 9: {"Commandant"};
+					case 10:{"Chef Police"};
+					};
+		_marker setMarkerTextLocal format[" [%1] %2",_rank,_x getVariable ["realname",name _x]];
+		//_marker setMarkerTextLocal format["%1", _x getVariable["realname",name _x]];
 	
 		_markers pushBack [_marker,_x];
 	} foreach _cops;

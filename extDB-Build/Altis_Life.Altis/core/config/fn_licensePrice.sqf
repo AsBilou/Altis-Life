@@ -35,4 +35,14 @@ switch (_type) do
 	case "cement": {6500};
 	case "mair": {15000};
 	case "home": {75000};
+	case "sperrylite": {100000};
+	case "platine": {50000};
+	case "fondiron": {12000};
+	case "fondcopper": {10000};
+	case "gold": {15000};
+	case "fondgold": {20000};
+	case "chanvre": {15000};
+	case "morphine": {15000};
+	case "morphineill": {15000};
+	case "coca": {15000};
 };

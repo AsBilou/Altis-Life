@@ -192,12 +192,12 @@
 			<Portuguese>Transferir</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_GreaterThan">
-			<Original>You can't deposit more then $999,999 at a time</Original>
-			<English>You can't deposit more then $999,999 at a time</English>
-			<German>Du kannst nicht mehr als $999,999 gleichzeitig einzahlen</German>
-			<French>Vous ne pouvez pas déposer plus de $999,999</French>
-			<Italian>Non puoi depositare più di €999,999 alla volta</Italian>
-			<Portuguese>Você não pode transferir mais de R$999,999 em uma transação</Portuguese>
+			<Original>You can't deposit more then $1 000 000 at a time</Original>
+			<English>You can't deposit more then $1 000 000 at a time</English>
+			<German>Du kannst nicht mehr als $1 000 000 gleichzeitig einzahlen</German>
+			<French>Vous ne pouvez pas déposer plus de $1 000 000</French>
+			<Italian>Non puoi depositare più di €1 000 000 alla volta</Italian>
+			<Portuguese>Você não pode transferir mais de R$1 000 000 em uma transação</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_notnumeric">
 			<Original>The amount entered isn't a numeric value.</Original>
@@ -263,12 +263,12 @@
 			<Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferencia foi de R$%1.</Portuguese>
  		</Key>
  		<Key ID="STR_ATM_WithdrawMax">
- 			<Original>You can't withdraw more then $999,999</Original>
- 			<English>You can't withdraw more then $999,999</English>
-			<German>Du kannst nicht mehr als $999,999 abheben</German>
- 			<French>Vous ne pouvez pas retirer plus de $999,999</French>
-			<Italian>Non puoi prelevare più di €999.000 in una volta</Italian>
-			<Portuguese>Você pode sacar no máximo R$999.999</Portuguese>
+ 			<Original>You can't withdraw more then $1 000 000</Original>
+ 			<English>You can't withdraw more then $1 000 000</English>
+			<German>Du kannst nicht mehr als $1 000 000 abheben</German>
+ 			<French>Vous ne pouvez pas retirer plus de $1 000 000</French>
+			<Italian>Non puoi prelevare più di $1 000 000 in una volta</Italian>
+			<Portuguese>Você pode sacar no máximo R$1 000 000</Portuguese>
  		</Key>
  		<Key ID="STR_ATM_WithdrawMin">
  			<Original>You can't withdraw less then $100</Original>
@@ -578,7 +578,7 @@
 			<Original>%1 and his gang: %2 - have taken control of a local hideout!</Original>
 			<English>%1 and his gang: %2 - have taken control of a local hideout!</English>
 			<German>%1 und seine Gang: 2% - haben die Kontrolle über ein lokales Versteck übernommen!</German>
-			<French>%1 et sa gang: %2 ont pris le controle de la cachette !</French>
+			<French>%1 et son gang: %2 ont pris le controle de la cachette !</French>
 			<Italian>%1 e la sua Gang: % 2 - hanno preso il controllo di un Covo!</Italian>
 			<Portuguese>%1 e sua gangue: %2 - agora tem o controle de um esconderijo!</Portuguese>
 		</Key>
@@ -594,7 +594,7 @@
 			<Original>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</Original>
 			<English>You have invalid characters in your gang name. It can only consist of Numbers and letters with an underscore</English>
 			<German>Du hast ein ungültiges Zeichen in deinem Gang Namen. Der Name darf nur aus Zahlen und Buchstaben sowie einem Unterstrich bestehen</German>	
-			<French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres amd lettres avec un trait de soulignement</French>
+			<French>Vous avez des caractères non valides dans le nom de votre gang. Il ne peut être constitué de chiffres et lettres avec un underscore</French>
 			<Italian>Hai inserito caratteri non validi nel nome della Gang. Puoi inserire solo numeri e lettere con un underscore</Italian>
 			<Portuguese>O nome da sua gangue tem caracteres inválidos. O nome so pode conter caracteres e números separados por sublinhado</Portuguese>
 		</Key>
@@ -602,7 +602,7 @@
 			<Original>You do not have enough money in your bank account.\n\nYou lack: $%1</Original>
 			<English>You do not have enough money in your bank account.\n\nYou lack: $%1</English>
 			<German>Du hast nicht genug Geld auf deinem Bankkonto.\n\nDir fehlen: $%1</German>
-			<French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nVous manquez de: $%1</French>
+			<French>Vous n'avez pas assez d'argent dans votre compte bancaire.\n\nIl vous manque : $%1</French>
 			<Italian>Non hai abbastanza fondi nel tuo conto in banca.\n\nTi mancano: €%1</Italian>
 			<Portuguese>Você não tem dinheiro suficiente na sua conta bancária.\n\nFaltam: R$%1</Portuguese>
 		</Key>
@@ -610,7 +610,7 @@
 			<Original>You have created the gang %1 for $%2</Original>
 			<English>You have created the gang %1 for $%2</English>
 			<German>Du hast die Gang %1 für $%2 erstellt</German>
-			<French>Vous avez créé la bande %1 pour $%2</French>
+			<French>Vous avez créé le gang %1 pour $%2</French>
 			<Italian>Hai creato la Gang %1 al costo di €%2</Italian>
 			<Portuguese>Você criou a gangue %1 por R$%2</Portuguese>
 		</Key>
@@ -650,7 +650,7 @@
 			<Original>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</Original>
 			<English>%1 has invited you to a gang called %2&lt;br/&gt;If you accept the invitation you will be a part of their gang and will have access to the gang funds and controlled gang hideouts.</English>
 			<German>%1 hat dich zu einer Gang namens %2 eingeladen &lt;br/&gt; Wenn Du die Einladung annimmst, wirst du ein Teil der Gang und bekommst Zugang zu den Gang-Konten und kontrollierten Gang Verstecken.</German>
-			<French>%1 vous a invité à un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous serez une partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
+			<French>%1 vous a invité dans un gang appelé %2&lt;br/&gt;Si vous acceptez l'invitation que vous ferez partie de leur gang et aurez accès à des fonds de gangs et des cachettes de gangs contrôlés.</French>
 			<Italian>%1 ti ha invitato nella Gang: %2&lt;br/&gt;Se vuoi accettarai l'invito entrerai a far parte della loro Gang ed avrai accesso ai loro fondi e ai loro Covi.</Italian>
 			<Portuguese>%1 convidou você para a gangue %2&lt;br/&gt;Se você aceitar você terá acesso aos recursos da gangue e os esconderijos.</Portuguese>
 		</Key>
@@ -658,7 +658,7 @@
 			<Original>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</Original>
 			<English>You are about to invite %1 to your gang, if they accept the invite they will have access to the gang's funds.</English>
 			<German>Du bist dabei, %1 in deine Gang einzuladen. Wenn die Einladung angenommen wird, hat der Spieler Zugang zu den Mitteln der Gang.</German>
-			<French>Vous êtes sur le point d'inviter %1 à votre gang, s'ils acceptent l'invitation, ils auront accès à des fonds du gang.</French>
+			<French>Vous êtes sur le point d'inviter %1 à votre gang, s'il accepte l'invitation, il aura accès aux fonds du gang.</French>
 			<Italian>Stai per invitare %1 nella tua Gang, se accetterà l'invito avrà accesso ai fondi della Gang.</Italian>
 			<Portuguese>Você vai convidar %1 para a gangue, ele terá acesso aos recursos da gangue.</Portuguese>
 		</Key>
@@ -674,7 +674,7 @@
 			<Original>You have sent a invite to your gang to %1</Original>
 			<English>You have sent a invite to your gang to %1</English>
 			<German>Du hast eine Einladung in deine Gang an %1 gesendet</German>
-			<French>Vous avez envoyé une invitation à votre gang à %1</French>
+			<French>Vous avez envoyé une invitation pour votre gang à %1</French>
 			<Italian>Hai mandato l'invito alla tua Gang a %1</Italian>
 			<Portuguese>Você enviou um convite para %1 se juntar a sua gangue</Portuguese>
 		</Key>
@@ -690,7 +690,7 @@
 			<Original>You cannot kick yourself!</Original>
 			<English>You cannot kick yourself!</English>
 			<German>Du kannst dich nicht selbst kicken!</German>
-			<French>Vous ne pouvez pas kicker vous-même!</French>
+			<French>Vous ne pouvez pas vous kicker vous-même!</French>
 			<Italian>Non puoi espellerti da solo!</Italian>
 			<Portuguese>Você não pode kickar você mesmo!</Portuguese>
 		</Key>
@@ -810,7 +810,7 @@
 			<Original>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</Original>
 			<English>You have upgraded from %1 to %2 maximum slots for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</English>
 			<German>Du hast für &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt; von %1 auf %2 Plätze erhöht</German>
-			<French>Vous avez mis à niveau à partir de %1 à %2 membres maximum for &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
+			<French>Vous avez mis à niveau de %1 à %2 membres maximum pour &lt;t color='#8cff9b'&gt;$%3&lt;/t&gt;</French>
 			<Italian>Hai aumentato i posti massimi da %1 a %2 per &lt;t color='#8cff9b'&gt;€%3&lt;/t&gt;</Italian>
 			<Portuguese>Limite de membros atualizado de %1 para %2 por &lt;t color='#8cff9b'&gt;R$%3&lt;/t&gt;</Portuguese>
 		</Key>
@@ -2150,7 +2150,7 @@
 			<Original>They didn't have any cash...</Original>
 			<English>They didn't have any cash...</English>
 			<German>Er hatte kein Geld...</German>
-			<French>Ils n'ont pas l'agent...</French>
+			<French>Il n'a pas d'agent...</French>
 			<Italian>Non hai soldi...</Italian>
 			<Portuguese>Eles não tinham nenhum dinheiro..</Portuguese>
 		</Key>
@@ -2253,12 +2253,12 @@
 			<Portuguese>Você não digitou um número válido</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketOver100">
-			<Original>Tickets can not be more than $200,000!</Original>
-			<English>Tickets can not be more than $200,000!</English>
-			<German>Strafzettel können nicht mehr als $200.000 betragen!</German>
-			<French>Les billets ne peuvent être plus de $ 200,000!</French>
-			<Italian>La multa non può essere più di €200.000!</Italian>
-			<Portuguese>A multa não pode ser maior que R$200.000!</Portuguese>
+			<Original>Tickets can not be more than $1 000 000!</Original>
+			<English>Tickets can not be more than $1 000 000!</English>
+			<German>Strafzettel können nicht mehr als $1 000 000 betragen!</German>
+			<French>Les billets ne peuvent être plus de $1 000 000!</French>
+			<Italian>La multa non può essere più di $1 000 000!</Italian>
+			<Portuguese>A multa não pode ser maior que R$1 000 000!</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketGive">
 			<Original>%1 gave a ticket of $%2 to %3</Original>
@@ -2277,12 +2277,28 @@
 			<Portuguese>Você não tem dinheiro suficiente em sua conta bancária ou de você para pagar o bilhete.</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Ticket_NotEnoughNOTF">
+			<Original>%1 couldn't pay the ticket due to not having enough money in his bank account or on him.</Original>
+			<English>%1 couldn't pay the ticket due to not having enough money in his bank account or on him.</English>
+			<German>%1 konnte den Strafzettel nicht bezahlen, weil er nicht genug Geld hat.</German>
+			<French>% 1 ne pouvait pas payer la contravention car il n'avait pas assez d'argent dans son compte en banque ou sur lui.</French>
+			<Italian>%1 non può pagare la multa perchè non ha sufficienti fondi nel suo conto in banca.</Italian>
+			<Portuguese>%1 não pode pagar a multa pois não tem dinheiro suficiente.</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnoughNOTFAll">
 			<Original>%1 couldn't pay the ticket due to not having enough money.</Original>
 			<English>%1 couldn't pay the ticket due to not having enough money.</English>
 			<German>%1 konnte den Strafzettel nicht bezahlen, weil er nicht genug Geld hat.</German>
 			<French>% 1 ne pouvait pas payer la contravention car il n'avait pas assez d'argent.</French>
 			<Italian>%1 non può pagare la multa perchè non ha sufficienti fondi nel suo conto in banca.</Italian>
 			<Portuguese>%1 não pode pagar a multa pois não tem dinheiro suficiente.</Portuguese>
+		</Key>
+		<Key ID="STR_Cop_Ticket_NotEnoughAll">
+			<Original>You don't have enough money in your bank account and on you to pay the ticket.</Original>
+			<English>You don't have enough money in your bank account and on you to pay the ticket.</English>
+			<German>Du hast nicht genug Geld auf deinem Bankkonto, um den Strafzettel bezahlen zu können.</German>
+			<French>Vous n'avez pas assez d'argent dans votre compte bancaire et sur vous pour payer l'amende.</French>
+			<Italian>Non hai fondi sufficienti nel tuo conto in banca per pagare la multa.</Italian>
+			<Portuguese>Você não tem dinheiro suficiente em sua conta bancária ou de você para pagar o bilhete.</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_Ticket_Paid">
 			<Original>You have paid the ticket of $%1</Original>
@@ -2304,7 +2320,7 @@
 			<Original>%1 paid the ticket.</Original>
 			<English>%1 paid the ticket.</English>
 			<German>%1 hat den Strafzettel bezahlt.</German>
-			<French>%1 payé la contravention.</French>
+			<French>%1 a payé la contravention.</French>
 			<Italian>%1 ha pagato la multa.</Italian>
 			<Portuguese>%1 pagou a multa.</Portuguese>
 		</Key>
@@ -3012,10 +3028,10 @@
 	</Package>
 	<Package name="Life_Items">
 		<Key ID="STR_Item_Cannabis">
-			<Original>Cannabis</Original>
-			<English>Cannabis</English>
+			<Original>Plant Hemp</Original>
+			<English>Plant Hemp</English>
 			<German>Kannabis</German>
-			<French>Cannabis</French>
+			<French>Plant de Chanvre</French>
 			<Italian>Cannabis</Italian>
 			<Portuguese>Maconha não Processada</Portuguese>
 		</Key>
@@ -3092,12 +3108,9 @@
 			<Portuguese>Petróleo Refinado</Portuguese>
 		</Key>
 		<Key ID="STR_Item_HeroinU">
-			<Original>Unprocessed Heroin</Original>
-			<English>Unprocessed Heroin</English>
-			<German>Unverarbeitetes Heroin</German>
+			<Original>Poppy Seed</Original>
+			<English>Poppy Seed</English>
 			<French>Graine de pavot</French>
-			<Italian>Eroina non processata</Italian>
-			<Portuguese>Heroína não Processada</Portuguese>
 		</Key>
 		<Key ID="STR_Item_HeroinP">
 			<Original>Processed Heroin</Original>
@@ -3412,12 +3425,9 @@
 			<Portuguese>Caixa Grande</Portuguese>
 		</Key>
 		<Key ID="STR_Item_CocaineU">
-			<Original>Unprocessed Cocaine</Original>
-			<English>Unprocessed Cocaine</English>
-			<German>Unverarbeitetes Kokain</German>
+			<Original>Coca Leaf</Original>
+			<English>Coca Leaf</English>
 			<French>Feuille de Coca</French>
-			<Italian>Cocaina non processata</Italian>
-			<Portuguese>Cocaína não Refinada</Portuguese>
 		</Key>
 		<Key ID="STR_Item_CocaineP">
 			<Original>Processed Cocaine</Original>
@@ -3434,6 +3444,65 @@
 			<French>Herse</French>
 			<Italian>Striscia Chiodata</Italian>
 			<Portuguese>Spike Strip</Portuguese>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_SperryliteOre">
+			<Original>Sperrylite Ore</Original>
+			<French>Minerai de Sperrylite</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_PlatineU">
+			<Original>Platinum Ore</Original>
+			<French>Minerai de Platine</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_PlatineR">
+			<Original>Platinum Ingot</Original>
+			<French>Lingot de Platine</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Iron_Ingot">
+			<Original>Iron Ingot</Original>
+			<French>Lingot de Fer</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Copper_Ingot">
+			<Original>Copper Ingot</Original>
+			<French>Lingot de Cuivre</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Gold">
+			<Original>Gold Ore</Original>
+			<French>Minerai d'Or</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_GoldR">
+			<Original>Gold Nuggets</Original>
+			<French>Pépites d'Or</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Gold_Ingot">
+			<Original>Gold Ingot</Original>
+			<French>Lingot d'Or</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Chanvre">
+			<Original>Hemp Fibers</Original>
+			<French>Fibres de Chanvre</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Morphine">
+			<Original>Morphine</Original>
+			<French>Morphine</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Morphine_Ill">
+			<Original>Illegal Morphine</Original>
+			<French>Morphine Illégal</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_Coca">
+			<Original>Altis Cola</Original>
 		</Key>
 	</Package>
 	<Package name="Life_License">
@@ -3596,6 +3665,46 @@
 			<French>Droit de Propriété</French>
 			<Italian>Licenza possesso Casa</Italian>
 			<Portuguese>Licença de Casas</Portuguese>
+		</Key>
+		<Key ID="STR_License_Sperrylite">
+			<Original>Sperrylite Training</Original>
+			<French>Traitement de la Sperrylite</French>
+		</Key>
+		<Key ID="STR_License_Platine">
+			<Original>Platinum Training</Original>
+			<French>Traitement de Platine</French>
+		</Key>
+		<Key ID="STR_License_FondIron">
+			<Original>Iron Ingot Training</Original>
+			<French>Fondeur de Fer</French>
+		</Key>
+		<Key ID="STR_License_FondCopper">
+			<Original>Copper Ingot Training</Original>
+			<French>Fondeur de Cuivre</French>
+		</Key>
+		<Key ID="STR_License_Gold">
+			<Original>Gold Training</Original>
+			<French>Traitement d'Or</French>
+		</Key>
+		<Key ID="STR_License_FondGold">
+			<Original>Gold Ingot Training</Original>
+			<French>Fondeur d'Or</French>
+		</Key>
+		<Key ID="STR_License_Chanvre">
+			<Original>Clothes Traning</Original>
+			<French>Fabrication de Tissus</French>
+		</Key>
+		<Key ID="STR_License_Morphine">
+			<Original>Morphine Traning</Original>
+			<French>Fabrication de Morphine</French>
+		</Key>
+		<Key ID="STR_License_Morphine_Ill">
+			<Original>Illegal Morphine Traning</Original>
+			<French>Fabrication de Morphine Illégal</French>
+		</Key>
+		<Key ID="STR_License_Coca">
+			<Original>Soda Traning</Original>
+			<French>Fabrication de Soda</French>
 		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
@@ -3962,11 +4071,11 @@
 			<Portuguese>Processando Cocaina</Portuguese>
 		</Key>
 		<Key ID="STR_Process_Marijuana">
-			<Original>Processing Marijuana</Original>
-			<English>Processing Marijuana</English>
-			<German>Marihuana wird verarbeitet</German>
-			<French>Traitement de Marijuana</French>
-			<Italian>Processando Marijuana</Italian>
+			<Original>Processing Hemp</Original>
+			<English>Processing Hemp</English>
+			<German>Hemp wird verarbeitet</German>
+			<French>Traitement des plants de Chanvre</French>
+			<Italian>Processando Hemp</Italian>
 			<Portuguese>Processando Erva</Portuguese>
 		</Key>
 		<Key ID="STR_Process_Cement">
@@ -4008,6 +4117,46 @@
 			<French>Vous avez traité %1 en %2 pour $3%</French>
 			<Italian>Hai processato %1 in %2 al costo di €%3</Italian>
 			<Portuguese>Você trasformou %1 em %2 por R$%3</Portuguese>
+		</Key>
+		<Key ID="STR_Process_Platine_U">
+			<Original>Processing Sperrylite</Original>
+			<French>Traitement de la Sperrylite</French>
+		</Key>
+		<Key ID="STR_Process_Platine_R">
+			<Original>Processing Platinum ore</Original>
+			<French>Traitement du Minerai de Platine</French>
+		</Key>
+		<Key ID="STR_Process_Iron_Ingot">
+			<Original>Processing Iron Ingot</Original>
+			<French>Fabrication d'un L'ingot de Fer</French>
+		</Key>
+		<Key ID="STR_Process_Copper_Ingot">
+			<Original>Processing Copper Ingot</Original>
+			<French>Fabrication d'un L'ingot de Cuivre</French>
+		</Key>
+		<Key ID="STR_Process_Gold_Ingot">
+			<Original>Processing Gold Ingot</Original>
+			<French>Fabrication d'un L'ingot d'Or</French>
+		</Key>
+		<Key ID="STR_Process_Gold">
+			<Original>Processing Gold Ore</Original>
+			<French>Traitement du Minerai d'Or</French>
+		</Key>
+		<Key ID="STR_Process_Chanvre">
+			<Original>Extracting Fibers</Original>
+			<French>Extraction des Fibres</French>
+		</Key>
+		<Key ID="STR_Process_Morphine">
+			<Original>Processing Morphine</Original>
+			<French>Traitement de la Morphine</French>
+		</Key>
+		<Key ID="STR_Process_Morphine_Ill">
+			<Original>Processing Morphine</Original>
+			<French>Traitement de la Morphine</French>
+		</Key>
+		<Key ID="STR_Process_Coca">
+			<Original>Processing Coca</Original>
+			<French>Fabrication de Coca</French>
 		</Key>
 	</Package>
 	<Package name="Gather_Items">

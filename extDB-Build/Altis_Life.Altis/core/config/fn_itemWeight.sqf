@@ -56,5 +56,17 @@ switch (_item) do
 	case "defusekit": {2};
 	case "storagesmall": {5};
 	case "storagebig": {10};
+	case "sperryliteore": {10};
+	case "platine_u": {8};
+	case "platine_r": {6};
+	case "iron_ingot": {2};
+	case "copper_ingot": {2};
+	case "goldore": {7};
+	case "gold_r": {5};
+	case "goldingot": {3};
+	case "chanvre": {3};
+	case "morphine": {3};
+	case "morphineill": {3};
+	case "coca": {3};
 	default {1};
 };
