@@ -117,13 +117,13 @@ class FSM
        "} foreach allMissionObjects ""Air"";" \n
        "" \n
        "_cars = time;" \n
-       "" \n
-       "//Group cleanup." \n
-       "{" \n
-       "	if(count units _x == 0 && local _x) then {" \n
-       "		deleteGroup _x;" \n
-       "	};" \n
-       "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
+	   "" \n
+	   "//Group cleanup." \n
+	   "{" \n
+	   "	if(count units _x == 0 && local _x) then {" \n
+	   "		deleteGroup _x;" \n
+	   "	};" \n
+	   "} foreach allGroups;"/*%FSM</STATEINIT""">*/;
       precondition = /*%FSM<STATEPRECONDITION""">*/""/*%FSM</STATEPRECONDITION""">*/;
       class Links
       {
