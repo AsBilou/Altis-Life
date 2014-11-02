@@ -27,11 +27,16 @@ switch (_filter) do
 		["U_C_Poor_2","Rag tagged clothes",250],
 		["U_IG_Guerilla2_2","Green stripped shirt & Pants",650],
 		["U_IG_Guerilla3_1","Brown Jacket & Pants",735],
+		["U_IG_Guerilla3_2","Brown Jacket & Pants",735],
 		["U_IG_Guerilla2_3","The Outback Rangler",1200],
+		["U_IG_Guerilla2_2","The Outback Rangler",1200],
 		["U_C_HunterBody_grn","The Hunters Look",1500],
 		["U_C_WorkerCoveralls","Mechanic Coveralls",2500],
 		["U_OrestesBody","Surfing On Land",1100],
-		["U_NikosAgedBody","Casual Wears",5000]
+		["U_NikosAgedBody","Casual Wears",5000],
+		["U_NikosBody","Casual Wears",1500],
+		["U_Competitor","Competitor Wears",735],
+		["U_C_Journalist","Journalist Wears",735]
 		];
 	};
 	
@@ -47,6 +52,7 @@ switch (_filter) do
 			["H_Bandanna_khk","Khaki Bandanna",145],
 			["H_Bandanna_sgg","Sage Bandanna",160],
 			["H_StrawHat","Straw Fedora",225],
+			["H_StrawHat_dark","Straw Fedora",225],
 			["H_BandMask_blk","Hat & Bandanna",300],
 			["H_Booniehat_tan",nil,425],
 			["H_Hat_blue",nil,310],
@@ -59,7 +65,24 @@ switch (_filter) do
 			["H_Cap_grn_BI",nil,150],
 			["H_Cap_oli",nil,150],
 			["H_Cap_red",nil,150],
-			["H_Cap_tan",nil,150]
+			["H_Cap_blk",nil,150],
+			["H_Cap_tan",nil,150],
+			["H_Cap_blk_CMMG",nil,150],
+			["H_Cap_blk_ION",nil,150],
+			["Backwards_hat",nil,150],
+			["Tan_Backwards_hat",nil,150],
+			["yankees_Backwards_hat",nil,150],
+			["H_Cap_press",nil,150],
+			["cowboyhat",nil,150],
+			["Kio_Afro_Hat",nil,150],
+			["Kio_Capital_Hat",nil,150],
+			["Kio_Spinning_Hat",nil,150],
+			["Kio_Pirate_Hat",nil,150],
+			["Kio_Santa_Hat",nil,150],
+			["Kio_No1_Hat",nil,150],
+			["Kio_Hat",nil,150],
+			["THM_Beanie_grey",nil,150],
+			["THM_Beanie_black",nil,150]
 		];
 	};
 	
@@ -87,6 +110,8 @@ switch (_filter) do
 	case 3:
 	{
 		[
+			["V_Press_F","Vest (Press)",1500],
+			["V_BandollierB_khk","Slash Bandolier",2500]
 		];
 	};
 	

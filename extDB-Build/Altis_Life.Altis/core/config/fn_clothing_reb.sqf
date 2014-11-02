@@ -37,6 +37,7 @@ switch (_filter) do
 			["H_ShemagOpen_khk",nil,800],
 			["H_HelmetO_ocamo",nil,2500],
 			["H_MilCap_oucamo",nil,1200],
+			["Kio_Balaclava",nil,150],
 			["H_Bandanna_camo",nil,650]
 		];
 	};
