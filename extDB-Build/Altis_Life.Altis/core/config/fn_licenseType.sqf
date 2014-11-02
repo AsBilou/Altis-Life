@@ -50,6 +50,8 @@ switch (_mode) do
 			case "morphine": {_var = "license_civ_morphine"};
 			case "morphineill": {_var = "license_civ_morphine_ill"};
 			case "coca": {_var = "license_civ_coca"};
+			case "president": {_var = "license_civ_president"};
+			case "garde": {_var = "license_civ_garde"};
 			default {_var = ""};
 		};
 	};
@@ -92,6 +94,8 @@ switch (_mode) do
 			case "license_civ_morphine": {_var = "morphine"};
 			case "license_civ_morphine_ill": {_var = "morphineill"};
 			case "license_civ_coca": {_var = "coca"};
+			case "license_civ_president": {_var = "president"};
+			case "license_civ_garde": {_var = "garde"};
 			default {_var = ""};
 		};
 	};

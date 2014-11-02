@@ -1,3 +1,4 @@
+#include <macro.h>
 /*
 	File: fn_initCiv.sqf
 	Author: Bryan "Tonic" Boardwine
@@ -17,8 +18,17 @@ if(life_is_arrested) then
 	life_is_arrested = false;
 	[player,true] spawn life_fnc_jail;
 }
-	else
-{
+else
+{ 
+	if((str(player) == "civ_76")&&(__GETC__(life_donator) <2)) then {
+			["NotWhitelisted",false,true] call BIS_fnc_endMission;
+			sleep 35;
+	};
+
+	if((str(player) in ["civ_77","civ_78","civ_79"])&&(__GETC__(life_donator) <1)) then {
+			["NotWhitelisted",false,true] call BIS_fnc_endMission;
+			sleep 35;
+	};
 	[] call life_fnc_spawnMenu;
 	waitUntil{!isNull (findDisplay 38500)}; //Wait for the spawn selection to be open.
 	waitUntil{isNull (findDisplay 38500)}; //Wait for the spawn selection to be done.

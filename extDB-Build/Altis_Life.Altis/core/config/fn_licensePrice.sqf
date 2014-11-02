@@ -45,4 +45,6 @@ switch (_type) do
 	case "morphine": {15000};
 	case "morphineill": {15000};
 	case "coca": {15000};
+	case "president": {1000000};
+	case "garde": {500000};
 };
