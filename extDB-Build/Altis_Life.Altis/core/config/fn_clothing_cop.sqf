@@ -39,6 +39,7 @@ switch (_filter) do
 							if(__GETC__(life_coplevel) > 6) then
 							{
 								_ret pushBack ["bilou_uni_PL",nil,25];
+								_ret pushBack ["rpima_uniform",nil,25];
 								if(__GETC__(life_coplevel) > 7) then
 								{
 									_ret pushBack ["bilou_uni_PCa",nil,25];
@@ -71,6 +72,11 @@ switch (_filter) do
 			if(__GETC__(life_coplevel) > 3) then
 			{
 				_ret pushBack ["H_Beret_blk_POLICE",nil,100];
+				if(__GETC__(life_coplevel) > 6) then
+				{
+					_ret pushBack ["RPIMA_helm",nil,100];
+					_ret pushBack ["RPIMA_helm_close",nil,100];
+				};
 			};
 		};
 	};
@@ -103,6 +109,10 @@ switch (_filter) do
 			["L_shemagh_white",nil,30],
 			["Balaclava_Black",nil,30]
 		];
+		if(__GETC__(life_coplevel) > 6) then
+				{
+					_ret pushBack ["rpima_goggle_black",nil,100];
+				};
 		_ret pushBack ["G_B_Diving",nil,100];
 	};
 	
@@ -116,6 +126,11 @@ switch (_filter) do
 			if(__GETC__(life_coplevel) > 3) then
 			{
 				_ret pushBack ["demian2435_police_vest",nil,1500];
+				if(__GETC__(life_coplevel) > 6) then
+				{
+					_ret pushBack ["rpima_BlackVest",nil,1500];
+					_ret pushBack ["RPIMA_vest_black2",nil,1500];
+				};
 			};
 		};
 		_ret pushBack ["V_RebreatherB",nil,800];

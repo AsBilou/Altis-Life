@@ -95,21 +95,21 @@ switch(_shop) do
 						_weapons pushBack ["optic_Holosight",nil,500];
 						_weapons pushBack ["acc_flashlight",nil,500];
 						_weapons pushBack ["acc_pointer_IR",nil,500];
-						if(__GETC__(life_coplevel) > 4) then //Lieutenant
+						if(__GETC__(life_coplevel) > 4) then //Sergent Chef
 						{
 							_weapons pushBack ["SMA_HK416vfg",nil,2000];
-							if(__GETC__(life_coplevel) > 5) then //Capitaine
+							if(__GETC__(life_coplevel) > 5) then //Major
 							{
 								_weapons pushBack ["arifle_MXC_Black_F",nil,2000];
 								_weapons pushBack ["optic_Arco",nil,500];
 								_weapons pushBack ["optic_Hamr",nil,500];
 								_weapons pushBack ["30Rnd_65x39_caseless_mag",nil,500];
-								if(__GETC__(life_coplevel) > 6) then //Major
+								if(__GETC__(life_coplevel) > 6) then //Lieutenant
 								{
 									_weapons pushBack ["SMA_Mk17_black",nil,2000];
 									_weapons pushBack ["20Rnd_762x51_Mag",nil,500];
 									_weapons pushBack ["SMA_HK417vfg",nil,2000];
-									if(__GETC__(life_coplevel) > 7) then //Commandant
+									if(__GETC__(life_coplevel) > 7) then //Capitaine
 									{	
 										_weapons pushBack ["SMA_SKS_F",nil,2000];
 										_weapons pushBack ["SMA_30Rnd_762x39_SKS",nil,500];
