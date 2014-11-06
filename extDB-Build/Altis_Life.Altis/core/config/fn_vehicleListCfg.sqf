@@ -213,7 +213,6 @@ switch (_shop) do
 			["EMU_MH9_navy",253000],
 			["EMU_MH9_wh",253000],
 			["EMU_MH9_blk",253000],
-			["IVORY_T6A_1",500000],
 			["O_Heli_Light_02_unarmed_F",750000],
 			["Mohawk_civ1_FG",1000000]
 		];
@@ -240,6 +239,8 @@ switch (_shop) do
 					{
 						_return pushBack
 						["kyo_MH47E_base",200000];
+						_return pushBack
+						["IVORY_T6A_1",500000];
 					};
 				};
 			};
