@@ -192,12 +192,12 @@
 			<Portuguese>Transferir</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_GreaterThan">
-			<Original>You can't deposit more then $1 000 000 at a time</Original>
-			<English>You can't deposit more then $1 000 000 at a time</English>
-			<German>Du kannst nicht mehr als $1 000 000 gleichzeitig einzahlen</German>
-			<French>Vous ne pouvez pas déposer plus de $1 000 000</French>
-			<Italian>Non puoi depositare più di €1 000 000 alla volta</Italian>
-			<Portuguese>Você não pode transferir mais de R$1 000 000 em uma transação</Portuguese>
+			<Original>You can't deposit more then $999 999 at a time</Original>
+			<English>You can't deposit more then $999 999 at a time</English>
+			<German>Du kannst nicht mehr als $999 999 gleichzeitig einzahlen</German>
+			<French>Vous ne pouvez pas déposer plus de $999 999</French>
+			<Italian>Non puoi depositare più di €999 999 alla volta</Italian>
+			<Portuguese>Você não pode transferir mais de R$999 999 em uma transação</Portuguese>
 		</Key>
 		<Key ID="STR_ATM_notnumeric">
 			<Original>The amount entered isn't a numeric value.</Original>
@@ -263,12 +263,12 @@
 			<Portuguese>Você trasferiu R$%1 para %2.\n\nA taxa de trasferencia foi de R$%1.</Portuguese>
  		</Key>
  		<Key ID="STR_ATM_WithdrawMax">
- 			<Original>You can't withdraw more then $1 000 000</Original>
- 			<English>You can't withdraw more then $1 000 000</English>
-			<German>Du kannst nicht mehr als $1 000 000 abheben</German>
- 			<French>Vous ne pouvez pas retirer plus de $1 000 000</French>
-			<Italian>Non puoi prelevare più di $1 000 000 in una volta</Italian>
-			<Portuguese>Você pode sacar no máximo R$1 000 000</Portuguese>
+ 			<Original>You can't withdraw more then $999 999</Original>
+ 			<English>You can't withdraw more then $999 999</English>
+			<German>Du kannst nicht mehr als $999 999 abheben</German>
+ 			<French>Vous ne pouvez pas retirer plus de $999 999</French>
+			<Italian>Non puoi prelevare più di $999 999 in una volta</Italian>
+			<Portuguese>Você pode sacar no máximo R$999 999</Portuguese>
  		</Key>
  		<Key ID="STR_ATM_WithdrawMin">
  			<Original>You can't withdraw less then $100</Original>
@@ -2253,12 +2253,12 @@
 			<Portuguese>Você não digitou um número válido</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketOver100">
-			<Original>Tickets can not be more than $1 000 000!</Original>
-			<English>Tickets can not be more than $1 000 000!</English>
-			<German>Strafzettel können nicht mehr als $1 000 000 betragen!</German>
-			<French>Les billets ne peuvent être plus de $1 000 000!</French>
-			<Italian>La multa non può essere più di $1 000 000!</Italian>
-			<Portuguese>A multa não pode ser maior que R$1 000 000!</Portuguese>
+			<Original>Tickets can not be more than $999 999!</Original>
+			<English>Tickets can not be more than $999 999!</English>
+			<German>Strafzettel können nicht mehr als $999 999 betragen!</German>
+			<French>Les billets ne peuvent être plus de $999 999!</French>
+			<Italian>La multa non può essere più di $999 999!</Italian>
+			<Portuguese>A multa não pode ser maior que R$999 999!</Portuguese>
 		</Key>
 		<Key ID="STR_Cop_TicketGive">
 			<Original>%1 gave a ticket of $%2 to %3</Original>

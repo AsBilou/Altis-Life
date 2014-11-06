@@ -182,8 +182,6 @@ switch (_shop) do
 							["DAR_ChargerPoliceStateSlick",5000];
 							_return pushBack
 							["demian2435_swat_offroad",5000];
-							_return pushBack
-							["Max_swat_car",5000];
 							
 							//Major
 							if(__GETC__(life_coplevel) > 6) then
