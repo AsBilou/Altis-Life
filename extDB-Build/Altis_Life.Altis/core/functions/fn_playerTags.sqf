@@ -6,9 +6,14 @@
 	Description:
 	Adds the tags above other players heads when close and have visible range.
 */
-private["_ui","_units"];
+private["_ui","_units","_goggles","_uniform","_headgear"];
 #define iconID 78000
 #define scale 0.8
+
+_goggles = ["G_Balaclava_blk"];
+_uniform = ["U_O_GhillieSuit"];
+_headgear = ["H_Shemag_khk","H_Shemag_tan","H_Shemag_olive","H_Shemag_olive_hs","H_RacingHelmet_1_F","H_RacingHelmet_2_F","H_RacingHelmet_3_F","H_RacingHelmet_4_F","H_RacingHelmet_1_black_F","H_RacingHelmet_1_blue_F","H_RacingHelmet_1_green_F","H_RacingHelmet_1_red_F","H_RacingHelmet_1_white_F","H_RacingHelmet_1_yellow_F","H_RacingHelmet_1_orange_F","max_biker_helmet","Kio_Balaclava"];
+
 
 if(visibleMap OR {!alive player} OR {dialog}) exitWith {
 	500 cutText["","PLAIN"];
@@ -37,6 +42,9 @@ _units = _units - [player];
 		_distance = _pos distance player;
 		if(count _sPos > 1 && {_distance < 15}) then {
 			_text = switch (true) do {
+				case ((goggles _x) in _goggles): {format["<t color='#000000'>Masked Player</t>"];};
+				case ((headgear _x) in _headgear): {format["<t color='#000000'>Masked Player</t>"];};
+				case ((uniform _x) in _uniform): {format["<t color='#000000'>Masked Player</t>"];};
 				case (_x in (units grpPlayer) && playerSide == civilian): {format["<t color='#00FF00'>%1</t>",(_x getVariable ["realname",name _x])];};
 				case (!isNil {(_x getVariable "rank")}): {format[" [%1] %2",switch ((_x getVariable "rank")) do {
 					case 1: {"Recrue"};
