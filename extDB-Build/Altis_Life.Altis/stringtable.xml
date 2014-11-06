@@ -3706,6 +3706,14 @@
 			<Original>Soda Traning</Original>
 			<French>Fabrication de Soda</French>
 		</Key>
+		<Key ID="STR_License_President">
+			<Original>President</Original>
+			<French>Président</French>
+		</Key>
+		<Key ID="STR_License_Garde">
+			<Original>Bodyguard</Original>
+			<French>Garde du Corps</French>
+		</Key>
 	</Package>
 	<Package name="More_Item_Strings">
 		<Key ID="STR_ISTR_Blast_VaultOnly">
