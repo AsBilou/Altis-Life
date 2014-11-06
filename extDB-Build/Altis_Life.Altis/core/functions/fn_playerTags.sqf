@@ -10,7 +10,7 @@ private["_ui","_units","_goggles","_uniform","_headgear"];
 #define iconID 78000
 #define scale 0.8
 
-_goggles = ["G_Balaclava_blk"];
+_goggles = ["Balaclava_Black","Balaclava_GRY","Balaclava_OD","Shemagh_Face","Shemagh_FaceTan","Shemagh_FaceRed","Shemagh_FaceGry","Shemagh_FaceOD","T_HoodOD","T_HoodTanBlk","T_HoodACU","T_HoodBlk","T_HoodMD","T_HoodMW","T_HoodTan","T_HoodBDU","T_HoodTanCLR","T_HoodODCLR","T_HoodODBLK","T_HoodACUBLK","T_HoodACUCLR","T_HoodBDUCLR","T_HoodBDUBLK","T_HoodBlkBLK","T_HoodBlkCLR","T_HoodMDBLK","T_HoodMDCLR","T_HoodMWCLR","T_HoodMWBLK"];
 _uniform = ["U_O_GhillieSuit"];
 _headgear = ["H_Shemag_khk","H_Shemag_tan","H_Shemag_olive","H_Shemag_olive_hs","H_RacingHelmet_1_F","H_RacingHelmet_2_F","H_RacingHelmet_3_F","H_RacingHelmet_4_F","H_RacingHelmet_1_black_F","H_RacingHelmet_1_blue_F","H_RacingHelmet_1_green_F","H_RacingHelmet_1_red_F","H_RacingHelmet_1_white_F","H_RacingHelmet_1_yellow_F","H_RacingHelmet_1_orange_F","max_biker_helmet","Kio_Balaclava"];
 

@@ -32,16 +32,16 @@ switch (_filter) do
 					_ret pushBack ["bilou_uni_PS",nil,25];
 					if(__GETC__(life_coplevel) > 4) then
 					{
-						_ret pushBack ["bilou_uni_PL",nil,25];
+						_ret pushBack ["bilou_uni_PSC",nil,25];
 						if(__GETC__(life_coplevel) > 5) then
 						{
-							_ret pushBack ["bilou_uni_PCa",nil,25];
+							_ret pushBack ["bilou_uni_PM",nil,25];
 							if(__GETC__(life_coplevel) > 6) then
 							{
-								_ret pushBack ["bilou_uni_PM",nil,25];
+								_ret pushBack ["bilou_uni_PL",nil,25];
 								if(__GETC__(life_coplevel) > 7) then
 								{
-									_ret pushBack ["bilou_uni_PCo",nil,25];
+									_ret pushBack ["bilou_uni_PCa",nil,25];
 									if(__GETC__(life_coplevel) > 8) then
 									{
 										_ret pushBack ["bilou_uni_PCom",nil,25];
@@ -89,7 +89,19 @@ switch (_filter) do
 			["G_Aviator",nil,75],
 			["G_Squares",nil,10],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["G_Combat",nil,55],
+			["NeckTight_Red",nil,30],
+			["NeckTight",nil,30],
+			["NeckTight_OD",nil,30],
+			["NeckTight_Dmaripat",nil,30],
+			["NeckTight_Tan",nil,30],
+			["NeckTight_Gry",nil,30],
+			["L_Shemagh_Red",nil,30],
+			["L_Shemagh_Tan",nil,30],
+			["L_Shemagh_OD",nil,30],
+			["L_Shemagh_Gry",nil,30],
+			["L_shemagh_white",nil,30],
+			["Balaclava_Black",nil,30]
 		];
 		_ret pushBack ["G_B_Diving",nil,100];
 	};

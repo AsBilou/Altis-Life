@@ -102,7 +102,17 @@ switch (_filter) do
 			["G_Lady_Dark",nil,150],
 			["G_Lady_Blue",nil,150],
 			["G_Lowprofile",nil,30],
-			["G_Combat",nil,55]
+			["NeckTight_Red",nil,30],
+			["NeckTight",nil,30],
+			["NeckTight_OD",nil,30],
+			["NeckTight_Dmaripat",nil,30],
+			["NeckTight_Tan",nil,30],
+			["NeckTight_Gry",nil,30],
+			["L_Shemagh_Red",nil,30],
+			["L_Shemagh_Tan",nil,30],
+			["L_Shemagh_OD",nil,30],
+			["L_Shemagh_Gry",nil,30],
+			["L_shemagh_white",nil,30]
 		];
 	};
 	
