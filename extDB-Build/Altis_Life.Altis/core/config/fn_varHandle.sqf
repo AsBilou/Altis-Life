@@ -77,6 +77,8 @@ switch (_mode) do
 			case "morphine": {"life_inv_morphine"};
 			case "morphineill": {"life_inv_morphine_ill"};
 			case "coca": {"life_inv_coca"};
+			case "roadcone": {"life_inv_roadcone"};
+			case "LightGreen": {"life_inv_LightGreen"};
 		};
 	};
 	
@@ -145,6 +147,8 @@ switch (_mode) do
 			case "life_inv_morphine": {"morphine"};
 			case "life_inv_morphine_ill": {"morphineill"};
 			case "life_inv_coca": {"coca"};
+			case "life_inv_roadcone": {"roadcone"};
+			case "life_inv_LightGreen": {"LightGreen"};
 		};
 	};
 };

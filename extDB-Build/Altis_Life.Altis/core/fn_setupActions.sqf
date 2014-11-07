@@ -15,4 +15,10 @@ switch (playerSide) do
 		life_actions = life_actions + [player addAction[localize "STR_pAct_RobPerson",life_fnc_robAction,"",0,false,false,"",'
 		!isNull cursorTarget && player distance cursorTarget < 3.5 && isPlayer cursorTarget && animationState cursorTarget == "Incapacitated" && !(cursorTarget getVariable["robbed",FALSE]) ']];
 	};
+	
+	case west:
+	{
+		// Prendre barrière
+		//life_actions = life_actions + [player addAction["Prendre Cone",life_fnc_packupRoadCone,"",0,false,false,"",' _RoadCone = nearestObjects[getPos player,["RoadCone_F"],8] select 0; !isNil "_RoadCone" && !isNil {(_RoadCone getVariable "item")}']];
+	};
 };

@@ -1684,6 +1684,14 @@
 			<Italian>Hai raccolto una striscia chiodata.</Italian>
 			<Portuguese>Você pegou uma spike strip.</Portuguese>
 		</Key>
+		<Key ID="STR_NOTF_RoadCone">
+			<Original>You have packed up the road cone.</Original>
+			<French>Vous avez rengé le cone.</French>
+		</Key>
+		<Key ID="STR_NOTF_LightGreen">
+			<Original>You have packed up the green light.</Original>
+			<French>Vous avez rengé la lumiere verte.</French>
+		</Key>
 		<Key ID="STR_NOTF_PickedEvidence">
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
 			<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>
@@ -3504,6 +3512,16 @@
 			<Key ID="STR_Item_Coca">
 			<Original>Altis Cola</Original>
 		</Key>
+		</Key>
+			<Key ID="STR_Item_RoadCone">
+			<Original>Road Cone</Original>
+			<French>Cone Routier</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_LightGreen">
+			<Original>Green Light</Original>
+			<French>Lumiere verte</French>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">
@@ -3948,6 +3966,22 @@
 			<Italian>Recupera striscie chiodate</Italian>
 			<Portuguese>Pegar Spike Strip.</Portuguese>
 		</Key>
+		<Key ID="STR_ISTR_RoadCone_Place">
+			<Original>Place Road Cone</Original>
+			<French>Placer le cone</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadCone_Pack">
+			<Original>Pack up Road Cone</Original>
+			<French>Ranger le cone</French>
+		</Key>
+		<Key ID="STR_ISTR_LightGreen_Place">
+			<Original>Place Green Light</Original>
+			<French>Placer la lumiere verte</French>
+		</Key>
+		<Key ID="STR_ISTR_LightGreen_Pack">
+			<Original>Pack up Green Light</Original>
+			<French>Ranger la lumiere verte</French>
+		</Key>
 		<Key ID="STR_ISTR_Box_NotinHouse">
 			<Original>You need to be inside your house to place this.</Original>
 			<English>You need to be inside your house to place this.</English>
@@ -3995,6 +4029,14 @@
 			<French>You already have a Spike Strip active in deployment</French>
 			<Italian>You already have a Spike Strip active in deployment</Italian>
 			<Portuguese>You already have a Spike Strip active in deployment</Portuguese>
+		</Key>
+		<Key ID="STR_ISTR_RoadConeDeployment">
+			<Original>You already have a Road Cone active in deployment</Original>
+			<French>Vous déployez déjà un cone.</French>
+		</Key>
+		<Key ID="STR_ISTR_LightGreenDeployment">
+			<Original>You already have a Green Light active in deployment</Original>
+			<French>Vous déployez déjà une lumiere verte.</French>
 		</Key>
 		<Key ID="STR_ISTR_RefuelInVehicle">
 			<Original>You can't refuel the vehicle while in it!</Original>

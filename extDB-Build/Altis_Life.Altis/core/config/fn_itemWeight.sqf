@@ -68,5 +68,7 @@ switch (_item) do
 	case "morphine": {3};
 	case "morphineill": {3};
 	case "coca": {3};
+	case "roadcone": {1};
+	case "LightGreen": {1};
 	default {1};
 };

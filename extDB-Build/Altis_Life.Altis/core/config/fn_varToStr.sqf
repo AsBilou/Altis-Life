@@ -73,6 +73,8 @@ switch (_var) do
 	case "life_inv_morphine": {(localize "STR_Item_Morphine")};
 	case "life_inv_morphine_ill": {(localize "STR_Item_Morphine_Ill")};
 	case "life_inv_coca": {(localize "STR_Item_Coca")};
+	case "life_inv_roadcone": {(localize "STR_Item_RoadCone")};
+	case "life_inv_LightGreen": {(localize "STR_Item_LightGreen")};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

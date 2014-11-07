@@ -66,6 +66,24 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "roadcone"):
+	{
+		if(!isNull life_RoadCone) exitWith {hint localize "STR_ISTR_RoadConeDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_RoadCone;
+		};
+	};
+	
+	case (_item == "LightGreen"):
+	{
+		if(!isNull life_LightGreen) exitWith {hint localize "STR_ISTR_LightGreenDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_LightGreen;
+		};
+	};
+	
 	case (_item == "fuelF"):
 	{
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};
