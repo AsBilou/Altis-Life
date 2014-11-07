@@ -70,5 +70,7 @@ switch (_item) do
 	case "coca": {3};
 	case "roadcone": {1};
 	case "LightGreen": {1};
+	case "LightRed": {1};
+	case "PortableLight": {1};
 	default {1};
 };

@@ -84,6 +84,24 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "LightRed"):
+	{
+		if(!isNull life_LightRed) exitWith {hint localize "STR_ISTR_LightRedDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_LightRed;
+		};
+	};
+	
+	case (_item == "PortableLight"):
+	{
+		if(!isNull life_PortableLight) exitWith {hint localize "STR_ISTR_PortableLightDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_PortableLight;
+		};
+	};
+	
 	case (_item == "fuelF"):
 	{
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};

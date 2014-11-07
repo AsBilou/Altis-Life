@@ -1692,6 +1692,14 @@
 			<Original>You have packed up the green light.</Original>
 			<French>Vous avez rengé la lumiere verte.</French>
 		</Key>
+		<Key ID="STR_NOTF_LightRed">
+			<Original>You have packed up the red light.</Original>
+			<French>Vous avez rengé la lumiere rouge.</French>
+		</Key>
+		<Key ID="STR_NOTF_PortableLight">
+			<Original>You have packed up the portable light.</Original>
+			<French>Vous avez rengé les lampes.</French>
+		</Key>
 		<Key ID="STR_NOTF_PickedEvidence">
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
 			<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>
@@ -3522,6 +3530,16 @@
 			<Original>Green Light</Original>
 			<French>Lumiere verte</French>
 		</Key>
+		</Key>
+			<Key ID="STR_Item_LightRed">
+			<Original>Red Light</Original>
+			<French>Lumiere rouge</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_PortableLight">
+			<Original>Portable Light</Original>
+			<French>Lampe Portable</French>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">
@@ -3982,6 +4000,22 @@
 			<Original>Pack up Green Light</Original>
 			<French>Ranger la lumiere verte</French>
 		</Key>
+		<Key ID="STR_ISTR_LightRed_Place">
+			<Original>Place Red Light</Original>
+			<French>Placer la lumiere rouge</French>
+		</Key>
+		<Key ID="STR_ISTR_LightRed_Pack">
+			<Original>Pack up Red Light</Original>
+			<French>Ranger la lumiere rouge</French>
+		</Key>
+		<Key ID="STR_ISTR_PortableLight_Place">
+			<Original>Place Portable Ligth</Original>
+			<French>Placer les lampes</French>
+		</Key>
+		<Key ID="STR_ISTR_PortableLight_Pack">
+			<Original>Pack up Portable Ligth</Original>
+			<French>Ranger les lampes</French>
+		</Key>
 		<Key ID="STR_ISTR_Box_NotinHouse">
 			<Original>You need to be inside your house to place this.</Original>
 			<English>You need to be inside your house to place this.</English>
@@ -4037,6 +4071,14 @@
 		<Key ID="STR_ISTR_LightGreenDeployment">
 			<Original>You already have a Green Light active in deployment</Original>
 			<French>Vous déployez déjà une lumiere verte.</French>
+		</Key>
+		<Key ID="STR_ISTR_LightRedDeployment">
+			<Original>You already have a Red Light active in deployment</Original>
+			<French>Vous déployez déjà une lumiere rouge.</French>
+		</Key>
+		<Key ID="STR_ISTR_PortableLightDeployment">
+			<Original>You already have a Portable Light active in deployment</Original>
+			<French>Vous déployez déjà une lampe.</French>
 		</Key>
 		<Key ID="STR_ISTR_RefuelInVehicle">
 			<Original>You can't refuel the vehicle while in it!</Original>

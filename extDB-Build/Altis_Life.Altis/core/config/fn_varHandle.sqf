@@ -79,6 +79,8 @@ switch (_mode) do
 			case "coca": {"life_inv_coca"};
 			case "roadcone": {"life_inv_roadcone"};
 			case "LightGreen": {"life_inv_LightGreen"};
+			case "LightRed": {"life_inv_LightRed"};
+			case "PortableLight": {"life_inv_PortableLight"};
 		};
 	};
 	
@@ -149,6 +151,8 @@ switch (_mode) do
 			case "life_inv_coca": {"coca"};
 			case "life_inv_roadcone": {"roadcone"};
 			case "life_inv_LightGreen": {"LightGreen"};
+			case "life_inv_LightRed": {"LightRed"};
+			case "life_inv_PortableLight": {"PortableLight"};
 		};
 	};
 };

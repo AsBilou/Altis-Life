@@ -108,6 +108,8 @@ class Life_Client_Core
 		class gather {};
 		class packupRoadCone {};
 		class packupLightGreen {};
+		class packupLightRed {};
+		class packupPortableLight {};
 	};
 	
 	class Housing
@@ -352,6 +354,8 @@ class Life_Client_Core
 		class storageBox {};
 		class RoadCone {};
 		class LightGreen {};
+		class LightRed {};
+		class PortableLight {};
 	};
 	
 	class Dialog_Controls

@@ -171,7 +171,9 @@ life_inv_items =
 	"life_inv_morphine_ill",
 	"life_inv_coca",
 	"life_inv_roadcone",
-	"life_inv_LightGreen"
+	"life_inv_LightGreen",
+	"life_inv_LightRed",
+	"life_inv_PortableLight"
 ];
 
 //Setup variable inv vars.
@@ -211,7 +213,9 @@ life_licenses =
 	["license_civ_chanvre","civ"],
 	["license_civ_morphine","civ"],
 	["license_civ_morphine_ill","civ"],
-	["license_civ_coca","civ"]
+	["license_civ_coca","civ"],
+	["license_civ_president","civ"],
+	["license_civ_garde","civ"]
 ];
 
 //Setup License Variables
@@ -272,7 +276,9 @@ sell_array =
 	["morphineill",1950],
 	["coca",1950],
 	["roadcone",0],
-	["LightGreen",0]
+	["LightGreen",0],
+	["LightRed",0],
+	["PortableLight",0]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -304,7 +310,9 @@ buy_array =
 	["storagesmall",75000],
 	["storagebig",150000],
 	["roadcone",100],
-	["LightGreen",100]
+	["LightGreen",100],
+	["LightRed",100],
+	["PortableLight",100]
 ];
 __CONST__(buy_array,buy_array);
 
