@@ -23,14 +23,6 @@ switch (_side) do
 			["cop_spawn_3","Commico Athira","\a3\ui_f\data\map\MapControl\watertower_ca.paa"],
 			["cop_spawn_5","Commico Sofia","\a3\ui_f\data\map\MapControl\watertower_ca.paa"]
 		];
-		
-		if(license_cop_air) then {
-			_return pushBack ["cop_heliport","Heliport Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
-		};
-		if(license_cop_cg) then {
-			_return pushBack ["cop_boat","Port Kavala","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
-			_return pushBack ["CG","Guarde Côte","\a3\ui_f\data\map\MapControl\watertower_ca.paa"];
-		};
 	};
 	
 	case civilian:
