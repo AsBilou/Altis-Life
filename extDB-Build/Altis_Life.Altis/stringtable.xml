@@ -1716,6 +1716,10 @@
 			<Original>You have packed up the tape sign.</Original>
 			<French>Vous avez rangé le bandeau routier.</French>
 		</Key>
+		<Key ID="STR_NOTF_emptybox">
+			<Original>You have empty the box.</Original>
+			<French>Vous avez vidé la boite.</French>
+		</Key>
 		<Key ID="STR_NOTF_PickedEvidence">
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
 			<English>%1 has been placed in evidence, you have received $%2 as a reward.</English>

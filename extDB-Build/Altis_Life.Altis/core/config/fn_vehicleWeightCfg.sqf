@@ -121,5 +121,7 @@ switch (_className) do
 	case "B_Heli_Transport_01_F":{65};
 	case "kyo_MH47E_base":{65};
 	case "IVORY_T6A_1":{65};
+	case "bilou_hunter_police":{65};
+	case "bilou_hunter_hmg_police":{65};
 	default {-1};
 };

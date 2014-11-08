@@ -153,15 +153,15 @@ switch (_shop) do
 				if(__GETC__(life_coplevel) > 3) then
 				{
 					_return pushBack
-					["Max_Suv_undercover",5000];
+					["max_Hatchback_undercover",5000];
 					_return pushBack
 					["DAR_ChargerPolice",5000];
 					_return pushBack
 					["DAR_ImpalaPoliceSlick",5000];
 					_return pushBack
-					["max_Hatchback_undercover",5000];
+					["Max_Suv_undercover",5000];
 					_return pushBack
-					["B_MRAP_01_F",5000];
+					["bilou_hunter_police",5000];
 					_return pushBack
 					["DAR_TahoePoliceSlick",5000];
 					
@@ -194,7 +194,7 @@ switch (_shop) do
 								if(__GETC__(life_coplevel) > 7) then
 								{
 									_return pushBack
-									["B_MRAP_01_hmg_F",5000];
+									["bilou_hunter_hmg_police",5000];
 								};
 							};
 						};
