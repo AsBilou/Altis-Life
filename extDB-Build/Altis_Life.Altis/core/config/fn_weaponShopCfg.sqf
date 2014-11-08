@@ -14,8 +14,9 @@
 		[classname,Custom Name (set nil for default),price]
 	]]
 */
-private["_shop","_weapons"];
+private["_shop","_weapons","_tools"];
 _weapons = [];
+_tools = [];
 _shop = [_this,0,"",[""]] call BIS_fnc_param;
 if(_shop == "") exitWith {closeDialog 0}; //Bad shop type passed.
 
@@ -28,8 +29,7 @@ switch(_shop) do
 			case (playerSide != west): {"You are not a cop!"};
 			default
 			{
-				["Altis Cop Shop",
-					[
+				_tools = [
 						["Binocular",nil,150],
 						["Rangefinder",nil,150],
 						["ItemWatch",nil,100],
@@ -38,11 +38,14 @@ switch(_shop) do
 						["ItemMap",nil,100],
 						["ItemGPS",nil,100],
 						["ToolKit",nil,250],
-						["FirstAidKit",nil,150],
-						["Medikit",nil,1000],
-						["NVGoggles_OPFOR",nil,2000]
-					]
-				];
+						["FirstAidKit",nil,150]
+					];
+				if(__GETC__(life_coplevel) > 2) then //Caporal
+				{	
+					_tools pushBack ["Medikit",nil,1000];
+					_tools pushBack ["NVGoggles_OPFOR",nil,2000];
+				};
+				["Altis Cop Shop",_tools];
 			};
 		};
 	};
@@ -83,37 +86,40 @@ switch(_shop) do
 								["16Rnd_9x21_Mag",nil,50],
 								["muzzle_snds_L",nil,500]
 							];
-				if(__GETC__(life_coplevel) > 1) then //Agent et Caporal
+				if(__GETC__(life_coplevel) > 1) then //Agent
 				{
 					_weapons pushBack ["SMG_02_F",nil,650];
 					_weapons pushBack ["30Rnd_9x21_Mag",nil,650];
-					_weapons pushBack ["optic_ACO_grn",nil,500];
-					if(__GETC__(life_coplevel) > 3) then //Sergent
+					if(__GETC__(life_coplevel) > 2) then //Caporal
 					{
-						_weapons pushBack ["SMA_Mk16_black",nil,2000];
-						_weapons pushBack ["SMA_30Rnd_556x45_M855A1",nil,500];
-						_weapons pushBack ["optic_Holosight",nil,500];
-						_weapons pushBack ["acc_flashlight",nil,500];
-						_weapons pushBack ["acc_pointer_IR",nil,500];
-						if(__GETC__(life_coplevel) > 4) then //Sergent Chef
+						_weapons pushBack ["optic_ACO_grn",nil,500];
+						if(__GETC__(life_coplevel) > 3) then //Sergent
 						{
-							_weapons pushBack ["SMA_HK416vfg",nil,2000];
-							if(__GETC__(life_coplevel) > 5) then //Major
+							_weapons pushBack ["SMA_Mk16_black",nil,2000];
+							_weapons pushBack ["SMA_30Rnd_556x45_M855A1",nil,500];
+							_weapons pushBack ["optic_Holosight",nil,500];
+							_weapons pushBack ["acc_flashlight",nil,500];
+							_weapons pushBack ["acc_pointer_IR",nil,500];
+							if(__GETC__(life_coplevel) > 4) then //Sergent Chef
 							{
-								_weapons pushBack ["arifle_MXC_Black_F",nil,2000];
-								_weapons pushBack ["optic_Arco",nil,500];
-								_weapons pushBack ["optic_Hamr",nil,500];
-								_weapons pushBack ["30Rnd_65x39_caseless_mag",nil,500];
-								if(__GETC__(life_coplevel) > 6) then //Lieutenant
+								_weapons pushBack ["SMA_HK416vfg",nil,2000];
+								if(__GETC__(life_coplevel) > 5) then //Major
 								{
-									_weapons pushBack ["SMA_Mk17_black",nil,2000];
-									_weapons pushBack ["20Rnd_762x51_Mag",nil,500];
-									_weapons pushBack ["SMA_HK417vfg",nil,2000];
-									if(__GETC__(life_coplevel) > 7) then //Capitaine
-									{	
-										_weapons pushBack ["SMA_SKS_F",nil,2000];
-										_weapons pushBack ["SMA_30Rnd_762x39_SKS",nil,500];
-										_weapons pushBack ["SMA_HK417_16in_afg",nil,2000];
+									_weapons pushBack ["arifle_MXC_Black_F",nil,2000];
+									_weapons pushBack ["optic_Arco",nil,500];
+									_weapons pushBack ["optic_Hamr",nil,500];
+									_weapons pushBack ["30Rnd_65x39_caseless_mag",nil,500];
+									if(__GETC__(life_coplevel) > 6) then //Lieutenant
+									{
+										_weapons pushBack ["SMA_Mk17_black",nil,2000];
+										_weapons pushBack ["20Rnd_762x51_Mag",nil,500];
+										_weapons pushBack ["SMA_HK417vfg",nil,2000];
+										if(__GETC__(life_coplevel) > 7) then //Capitaine
+										{	
+											_weapons pushBack ["SMA_SKS_F",nil,2000];
+											_weapons pushBack ["SMA_30Rnd_762x39_SKS",nil,500];
+											_weapons pushBack ["SMA_HK417_16in_afg",nil,2000];
+										};
 									};
 								};
 							};
