@@ -173,7 +173,11 @@ life_inv_items =
 	"life_inv_roadcone",
 	"life_inv_LightGreen",
 	"life_inv_LightRed",
-	"life_inv_PortableLight"
+	"life_inv_PortableLight",
+	"life_inv_RoadConeLight",
+	"life_inv_RoadBarrier",
+	"life_inv_BarGate",
+	"life_inv_TapeSign"
 ];
 
 //Setup variable inv vars.
@@ -278,7 +282,11 @@ sell_array =
 	["roadcone",0],
 	["LightGreen",0],
 	["LightRed",0],
-	["PortableLight",0]
+	["PortableLight",0],
+	["RoadConeLight",0],
+	["RoadBarrier",0],
+	["BarGate",0],
+	["TapeSign",0]
 ];
 __CONST__(sell_array,sell_array);
 
@@ -312,7 +320,11 @@ buy_array =
 	["roadcone",100],
 	["LightGreen",100],
 	["LightRed",100],
-	["PortableLight",100]
+	["PortableLight",100],
+	["RoadConeLight",100],
+	["RoadBarrier",100],
+	["BarGate",100],
+	["TapeSign",100]
 ];
 __CONST__(buy_array,buy_array);
 

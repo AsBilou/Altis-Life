@@ -22,8 +22,8 @@ switch (_shop) do
 	case "iron": {["Altis Industrial Trader",["iron_r","copper_r","platine_u","gold_r"]]};
 	case "diamond": {["Diamond Dealer",["diamond","diamondc"]]};
 	case "salt": {["Salt Dealer",["salt_r"]]};
-	case "cop": {["Cafétéria",["donuts","coffee","spikeStrip","water","rabbit","apple","redgull","fuelF","defusekit","roadcone","LightGreen","LightRed","PortableLight"]]};
-	case "coptools": {["Cop's Tools",["spikeStrip","fuelF","defusekit","roadcone","LightGreen","LightRed","PortableLight"]]};
+	case "cop": {["Cafétéria",["donuts","coffee","spikeStrip","water","rabbit","apple","redgull","fuelF","defusekit","roadcone","LightGreen","LightRed","PortableLight","RoadConeLight","RoadBarrier","BarGate","TapeSign"]]};
+	case "coptools": {["Cop's Tools",["spikeStrip","fuelF","defusekit","roadcone","LightGreen","LightRed","PortableLight","RoadConeLight","RoadBarrier","BarGate","TapeSign"]]};
 	case "cement": {["Cement Dealer",["cement"]]};
 	case "gold": {["Gold Buyer",["goldbar"]]};
 	case "ingot": {["Ingot Buyer",["platine_r","goldingot","iron_ingot","copper_ingot"]]};

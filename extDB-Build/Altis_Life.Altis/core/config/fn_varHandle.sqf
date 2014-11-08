@@ -81,6 +81,10 @@ switch (_mode) do
 			case "LightGreen": {"life_inv_LightGreen"};
 			case "LightRed": {"life_inv_LightRed"};
 			case "PortableLight": {"life_inv_PortableLight"};
+			case "RoadConeLight": {"life_inv_RoadConeLight"};
+			case "RoadBarrier": {"life_inv_RoadBarrier"};
+			case "BarGate": {"life_inv_BarGate"};
+			case "TapeSign": {"life_inv_TapeSign"};
 		};
 	};
 	
@@ -153,6 +157,10 @@ switch (_mode) do
 			case "life_inv_LightGreen": {"LightGreen"};
 			case "life_inv_LightRed": {"LightRed"};
 			case "life_inv_PortableLight": {"PortableLight"};
+			case "life_inv_RoadConeLight": {"RoadConeLight"};
+			case "life_inv_RoadBarrier": {"RoadBarrier"};
+			case "life_inv_BarGate": {"BarGate"};
+			case "life_inv_TapeSign": {"TapeSign"};
 		};
 	};
 };

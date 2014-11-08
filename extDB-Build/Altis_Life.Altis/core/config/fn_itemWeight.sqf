@@ -72,5 +72,9 @@ switch (_item) do
 	case "LightGreen": {1};
 	case "LightRed": {1};
 	case "PortableLight": {1};
+	case "RoadConeLight": {1};
+	case "RoadBarrier": {1};
+	case "BarGate": {1};
+	case "TapeSign": {1};
 	default {1};
 };

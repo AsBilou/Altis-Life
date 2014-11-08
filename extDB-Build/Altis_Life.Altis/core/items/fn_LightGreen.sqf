@@ -19,6 +19,6 @@ if(isNull _LightGreen) exitWith {life_LightGreen = ObjNull;};
 _LightGreen setPos [(getPos _LightGreen select 0),(getPos _LightGreen select 1),0];
 _LightGreen setDamage 0;
 _LightGreen allowDamage false;
-life_action_LightGreenPickup = player addAction[localize "STR_ISTR_LightGreen_Pack",life_fnc_packupLightGreen,"",0,false,false,"",
-' _ligths = nearestObjects[getPos player,["Land_Flush_Light_green_F"],8] select 0; !isNil "_ligths" && !isNil {(_ligths getVariable "item")}'];
+/*life_action_LightGreenPickup = player*/
+_LightGreen addAction[localize "STR_ISTR_LightGreen_Pack",life_fnc_packupLightGreen,"",0,false,false,"",' _ligths = nearestObjects[getPos player,["Land_Flush_Light_green_F"],8] select 0; !isNil "_ligths" && !isNil {(_ligths getVariable "item")}'];
 [[_LightGreen],"TON_fnc_LightRed",false,false] spawn life_fnc_MP; //Send it to the server for monitoring.

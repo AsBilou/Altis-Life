@@ -102,6 +102,42 @@ switch (true) do
 		};
 	};
 	
+	case (_item == "RoadConeLight"):
+	{
+		if(!isNull life_RoadConeLight) exitWith {hint localize "STR_ISTR_RoadConeLightDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_RoadConeLight;
+		};
+	};
+	
+	case (_item == "RoadBarrier"):
+	{
+		if(!isNull life_RoadBarrier) exitWith {hint localize "STR_ISTR_RoadBarrierDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_RoadBarrier;
+		};
+	};
+	
+	case (_item == "BarGate"):
+	{
+		if(!isNull life_BarGate) exitWith {hint localize "STR_ISTR_BarGateDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_BarGate;
+		};
+	};
+	
+	case (_item == "TapeSign"):
+	{
+		if(!isNull life_TapeSign) exitWith {hint localize "STR_ISTR_TapeSignDeployment"};
+		if(([false,_item,1] call life_fnc_handleInv)) then
+		{
+			[] spawn life_fnc_TapeSign;
+		};
+	};
+	
 	case (_item == "fuelF"):
 	{
 		if(vehicle player != player) exitWith {hint localize "STR_ISTR_RefuelInVehicle"};

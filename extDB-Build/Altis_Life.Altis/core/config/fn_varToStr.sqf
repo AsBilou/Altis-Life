@@ -77,6 +77,10 @@ switch (_var) do
 	case "life_inv_LightGreen": {(localize "STR_Item_LightGreen")};
 	case "life_inv_LightRed": {(localize "STR_Item_LightRed")};
 	case "life_inv_PortableLight": {(localize "STR_Item_PortableLight")};
+	case "life_inv_RoadConeLight": {(localize "STR_Item_RoadConeLight")};
+	case "life_inv_RoadBarrier": {(localize "STR_Item_RoadBarrier")};
+	case "life_inv_BarGate": {(localize "STR_Item_BarGate")};
+	case "life_inv_TapeSign": {(localize "STR_Item_TapeSign")};
 	
 	//License Block
 	case "license_civ_driver": {(localize "STR_License_Driver")};

@@ -1686,19 +1686,35 @@
 		</Key>
 		<Key ID="STR_NOTF_RoadCone">
 			<Original>You have packed up the road cone.</Original>
-			<French>Vous avez rengé le cone.</French>
+			<French>Vous avez rangé le cone.</French>
 		</Key>
 		<Key ID="STR_NOTF_LightGreen">
 			<Original>You have packed up the green light.</Original>
-			<French>Vous avez rengé la lumiere verte.</French>
+			<French>Vous avez rangé la lumiere verte.</French>
 		</Key>
 		<Key ID="STR_NOTF_LightRed">
 			<Original>You have packed up the red light.</Original>
-			<French>Vous avez rengé la lumiere rouge.</French>
+			<French>Vous avez rangé la lumiere rouge.</French>
 		</Key>
 		<Key ID="STR_NOTF_PortableLight">
 			<Original>You have packed up the portable light.</Original>
-			<French>Vous avez rengé les lampes.</French>
+			<French>Vous avez rangé les lampes.</French>
+		</Key>
+		<Key ID="STR_NOTF_RoadConeLight">
+			<Original>You have packed up the light road cone.</Original>
+			<French>Vous avez rangé le cone routier lumineux.</French>
+		</Key>
+		<Key ID="STR_NOTF_RoadBarrier">
+			<Original>You have packed up the road barrier.</Original>
+			<French>Vous avez rangé la barriere routiere.</French>
+		</Key>
+		<Key ID="STR_NOTF_BarGate">
+			<Original>You have packed up the bar gare.</Original>
+			<French>Vous avez rangé la barriere mobile.</French>
+		</Key>
+		<Key ID="STR_NOTF_TapeSign">
+			<Original>You have packed up the tape sign.</Original>
+			<French>Vous avez rangé le bandeau routier.</French>
 		</Key>
 		<Key ID="STR_NOTF_PickedEvidence">
 			<Original>%1 has been placed in evidence, you have received $%2 as a reward.</Original>
@@ -3540,6 +3556,26 @@
 			<Original>Portable Light</Original>
 			<French>Lampe Portable</French>
 		</Key>
+		</Key>
+			<Key ID="STR_Item_RoadConeLight">
+			<Original>Road Cone Light</Original>
+			<French>Cone Routier Lumineux</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_RoadBarrier">
+			<Original>Road Barrier</Original>
+			<French>Barriere Routiere</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_BarGate">
+			<Original>Bar Gate</Original>
+			<French>Barriere Mobile</French>
+		</Key>
+		</Key>
+			<Key ID="STR_Item_TapeSign">
+			<Original>Tape Sign</Original>
+			<French>Bandeau Routier</French>
+		</Key>
 	</Package>
 	<Package name="Life_License">
 		<Key ID="STR_License_Driver">
@@ -4016,6 +4052,38 @@
 			<Original>Pack up Portable Ligth</Original>
 			<French>Ranger les lampes</French>
 		</Key>
+		<Key ID="STR_ISTR_RoadConeLight_Place">
+			<Original>Place Road Cone Light</Original>
+			<French>Placer le cone routier lumineux</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadConeLight_Pack">
+			<Original>Pack up Road Cone Light</Original>
+			<French>Ranger le cone routier lumineux</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadBarrier_Place">
+			<Original>Place Road Barrier</Original>
+			<French>Placer la barriere routiere</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadBarrier_Pack">
+			<Original>Pack up Road Barrier</Original>
+			<French>Ranger la barriere routiere</French>
+		</Key>
+		<Key ID="STR_ISTR_BarGate_Place">
+			<Original>Place Bar Gate</Original>
+			<French>Placer la barriere mobile</French>
+		</Key>
+		<Key ID="STR_ISTR_BarGate_Pack">
+			<Original>Pack up Bar Gate</Original>
+			<French>Ranger la barriere mobile</French>
+		</Key>
+		<Key ID="STR_ISTR_TapeSign_Place">
+			<Original>Place Tape Sign</Original>
+			<French>Placer bandeau routier</French>
+		</Key>
+		<Key ID="STR_ISTR_TapeSign_Pack">
+			<Original>Pack up Tape Sign</Original>
+			<French>Ranger bandeau routier</French>
+		</Key>
 		<Key ID="STR_ISTR_Box_NotinHouse">
 			<Original>You need to be inside your house to place this.</Original>
 			<English>You need to be inside your house to place this.</English>
@@ -4079,6 +4147,22 @@
 		<Key ID="STR_ISTR_PortableLightDeployment">
 			<Original>You already have a Portable Light active in deployment</Original>
 			<French>Vous déployez déjà une lampe.</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadConeLightDeployment">
+			<Original>You already have a Road Cone Light active in deployment</Original>
+			<French>Vous déployez déjà un cone routier lumineux.</French>
+		</Key>
+		<Key ID="STR_ISTR_RoadBarrierDeployment">
+			<Original>You already have a Road Barrier active in deployment</Original>
+			<French>Vous déployez déjà une barriere routiere.</French>
+		</Key>
+		<Key ID="STR_ISTR_BarGateDeployment">
+			<Original>You already have a Bar Gate active in deployment</Original>
+			<French>Vous déployez déjà une barriere mobile.</French>
+		</Key>
+		<Key ID="STR_ISTR_TapeSignDeployment">
+			<Original>You already have a Tape Sign active in deployment</Original>
+			<French>Vous déployez déjà un bandeau routier.</French>
 		</Key>
 		<Key ID="STR_ISTR_RefuelInVehicle">
 			<Original>You can't refuel the vehicle while in it!</Original>

@@ -110,6 +110,10 @@ class Life_Client_Core
 		class packupLightGreen {};
 		class packupLightRed {};
 		class packupPortableLight {};
+		class packupRoadConeLight {};
+		class packupRoadBarrier {};
+		class packupBarGate {};
+		class packupTapeSign {};
 	};
 	
 	class Housing
@@ -356,6 +360,10 @@ class Life_Client_Core
 		class LightGreen {};
 		class LightRed {};
 		class PortableLight {};
+		class RoadConeLight {};
+		class RoadBarrier {};
+		class BarGate {};
+		class TapeSign {};
 	};
 	
 	class Dialog_Controls
