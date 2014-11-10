@@ -195,7 +195,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["DAR_ExplorerPPV\Data\body_co.paa","cop"],
+			["DAR_ExplorerPPV\Data\body_co.paa","cop"]
 		];
 	};
 	
@@ -203,7 +203,7 @@ switch (_vehicle) do
 	{
 		_ret = 
 		[
-			["DAR_ExplorerPPV\Data\black.paa","cop"],
+			["DAR_ExplorerPPV\Data\black.paa","cop"]
 		];
 	};
 
