@@ -107,8 +107,12 @@
 };
 
 //TODO améliorer en transformant les marcker en invisible puis utiliser "mymarker" setMarkerType "mil_pickup" pour les faire réaparaitre.
-_illegalmarkerscops = ["gold_bar_dealer","turtle_1_name_2","turtle_3","turle_dealer_1","Dealer_1","gang_area_2","chop_shop_1","cocaine processing","turtle_1_name_1","turtle_2","turle_dealer","Weed_p_1","gang_area_1","Dealer_1_4","Rebelop","turle_dealer_2","Rebelop_1","gang_area_3","chop_shop_4","Dealer_1_3","heroin_p","Rebelop_2","chop_shop_2","illegal_morphine_process"]; 
+_illegalmarkerscops = ["gold_bar_dealer","turtle_1_name_2","turtle_3","turle_dealer_1","Dealer_1","gang_area_2","chop_shop_1","cocaine processing","turtle_1_name_1","turtle_2","turle_dealer","Weed_p_1","gang_area_1","Dealer_1_4","Rebelop","turle_dealer_2","Rebelop_1","gang_area_3","chop_shop_4","Dealer_1_3","heroin_p","Rebelop_2","chop_shop_2","illegal_morphine_process","heroin_1_1","cocaine_1_1","weed_1_1"]; 
 _illegalmarkersciv = ["cocaine processing","Dealer_1","Weed_p_1","Dealer_1_4","Dealer_1_3","heroin_p"];
+_markerrebel1 = ["cocaine processing","cocaine_1_1","Dealer_1_4","Dealer_1_3","Rebelop"];
+_markerrebel2 = ["heroin_p","heroin_1_1","Dealer_1_4","Dealer_1_3","Rebelop_1"];
+_markerrebel3 = ["Weed_p_1","weed_1_1","Dealer_1_4","Dealer_1_3","Rebelop_2"];
+_deletemarkercops = ["gold_bar_dealer","turtle_1_name_2","turtle_3","turle_dealer_1","gang_area_2","chop_shop_1","turtle_1_name_1","turtle_2","turle_dealer","gang_area_1","turle_dealer_2","gang_area_3","chop_shop_4","chop_shop_2"];
 if (playerSide == west) then {
 	{ deleteMarkerLocal _x; } forEach _illegalmarkerscops;
 };

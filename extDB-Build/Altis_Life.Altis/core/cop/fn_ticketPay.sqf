@@ -5,7 +5,7 @@
 	Description:
 	Pays the ticket.
 */
-private["_reste_ticket_val"]
+private["_reste_ticket_val"];
 if(isnil {life_ticket_val} OR isNil {life_ticket_cop}) exitWith {};
 if(life_cash < life_ticket_val) exitWith
 {
