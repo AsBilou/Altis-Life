@@ -13,7 +13,7 @@ waitUntil {scriptDone _handle};
 
 //Load player with default cop gear.
 //player addUniform "demian2435_police_man_uniform";
-player addUniform "B_uni_PR";
+player addUniform "bilou_uni_PR";
 
 player addVest "demian2435_police_belt";
 
