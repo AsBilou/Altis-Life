@@ -4976,6 +4976,11 @@
 			<Italian>Devi essere un poliziotto per utilizzare questo negozio!</Italian>
 			<Portuguese>Você tem que ser Policial para usar essa loja!</Portuguese>
 		</Key>
+		<Key ID="STR_Shop_NotaMedic">
+			<Original>You need to be a medic to use this store!</Original>
+			<English>You need to be a medic to use this store!</English>
+			<French>Vous devez être un médic pour utiliser ce magasin!</French>
+		</Key>
 		<Key ID="STR_Shop_NotaReb">
 			<Original>You don't have rebel training yet!</Original>
 			<English>You don't have rebel training yet!</English>

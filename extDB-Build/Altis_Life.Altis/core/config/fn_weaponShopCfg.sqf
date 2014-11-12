@@ -59,12 +59,15 @@ switch(_shop) do
 				["Hospital EMS Shop",
 					[
 						["ItemGPS",nil,100],
+						["ItemWatch",nil,100],
+						["ItemRadio",nil,100],
+						["ItemCompass",nil,100],
+						["ItemMap",nil,100],
 						["Binocular",nil,150],
 						["ToolKit",nil,250],
 						["FirstAidKit",nil,150],
 						["Medikit",nil,500],
-						["NVGoggles_INDEP",nil,1200],
-						["B_FieldPack_ocamo",nil,3000]
+						["NVGoggles_INDEP",nil,1200]
 					]
 				];
 			};
