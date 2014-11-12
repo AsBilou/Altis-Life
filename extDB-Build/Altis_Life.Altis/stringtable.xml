@@ -3309,18 +3309,16 @@
 			<Portuguese>Pepita de Ferro</Portuguese>
 		</Key>
 		<Key ID="STR_Item_IronIngot">
-			<Original>Iron Ingot</Original>
-			<English>Iron Ingot</English>
+			<Original>Raw Iron</Original>
+			<English>Raw Iron</English>
 			<German>Eisenbarren</German>
-			<French>Lingot de Fer</French>
-			<Italian>Lingotto di ferro</Italian>
-			<Portuguese>Barra de Ferro</Portuguese>
+			<French>Fer Brut</French>
 		</Key>
 		<Key ID="STR_Item_CopperIngot">
-			<Original>Copper Ingot</Original>
-			<English>Copper Ingot</English>
+			<Original>Raw Copper</Original>
+			<English>Raw Copper</English>
 			<German>Kupferbarren</German>
-			<French>Lingot de cuivre</French>
+			<French>Cuivre Brut</French>
 			<Italian>Lingotto di Rame</Italian>
 			<Portuguese>Barra de Cobre</Portuguese>
 		</Key>
