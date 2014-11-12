@@ -24,10 +24,8 @@ switch (_shop) do
 	case "med_shop":
 	{
 		_return = [
-			["C_Offroad_01_F",10000],
 			["bilou_offroad_medic",10000],
 			["bilou_suv_medic",15000],
-			["bilou_suv_medic_grey",15000],
 			["DAR_TahoeEMS",20000],
 			["I_Truck_02_medical_F",25000],
 			["O_Truck_03_medical_F",45000],
@@ -51,11 +49,9 @@ switch (_shop) do
 			["B_Quadbike_01_F",2500],
 			["C_Hatchback_01_F",9500],
 			["C_Offroad_01_F",12500],
-			["emu_offroad_g1",12500],
 			["C_SUV_01_F",35000],
 			["Jonzie_96_Impala",40000],
 			["DAR_ImpalaCiv",45000],
-			["DAR_ImpalaCivA",45000],
 			["DAR_TaurusCiv",50000],
 			["DAR_TaurusCivBlue",50000],
 			["DAR_TaurusCivBlack",50000],
@@ -65,19 +61,9 @@ switch (_shop) do
 			["DAR_FusionCivRed",55000],
 			["DAR_FusionCivBlack",55000],
 			["DAR_TahoeCiv",60000],
-			["DAR_TahoeCivRed",60000],
-			["DAR_TahoeCivBlue",60000],
-			["DAR_TahoeCivSilver",60000],
 			["DAR_ChargerCiv",65000],
-			["DAR_Charger_Blue",65000],
 			["SAL_AudiCiv",70000],
-			["SAL_AudiCivRed",70000],
-			["SAL_AudiCivSilver",70000],
-			["SAL_AudiCivBlack",70000],
-			["DAR_ChallengerCivWhite",75000],
-			["DAR_ChallengerCivRed",75000],
-			["DAR_ChallengerCivBlack",75000],
-			["DAR_ChallengerCivOrange",75000]
+			["DAR_ChallengerCivWhite",75000]
 		];
 	};
 	
@@ -103,17 +89,11 @@ switch (_shop) do
 		[
 			["B_Quadbike_01_F",2500],
 			["B_G_Offroad_01_F",15000],
-			["emu_offroad_digi1",15000],
-			["emu_offroad_digi_dark",15000],
-			["emu_offroad_digi_dark2",15000],
-			["emu_offroad_t1",15000],
+			["C_Offroad_01_F",15000],
 			["max_robbers_Hatchback",30000],
 			["max_robbers_suv",50000],
 			["O_MRAP_02_F",150000],
-			["B_Heli_Light_01_F",325000],
-			["EMU_MH9",325000],
-			["EMU_MH9_camo",325000],
-			["EMU_MH9_yel",325000]
+			["B_Heli_Light_01_F",325000]
 		];
 		
 		if(license_civ_rebel) then
@@ -209,10 +189,6 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["EMU_MH9_des",253000],
-			["EMU_MH9_navy",253000],
-			["EMU_MH9_wh",253000],
-			["EMU_MH9_blk",253000],
 			["O_Heli_Light_02_unarmed_F",750000],
 			["Mohawk_civ1_FG",1000000]
 		];

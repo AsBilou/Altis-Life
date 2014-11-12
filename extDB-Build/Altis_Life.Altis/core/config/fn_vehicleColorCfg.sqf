@@ -49,7 +49,12 @@ switch (_vehicle) do
 			["\A3\soft_F\Offroad_01\Data\offroad_01_ext_BASE05_CO.paa","civ"],
 			["#(ai,64,64,1)Fresnel(0.3,3)","fed"],
 			["#(ai,64,64,1)Fresnel(1.3,7)","cop"],
-			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"]
+			["#(argb,8,8,3)color(0.6,0.3,0.01,1)","civ"],
+			["\EMU_cars\Data\emu_offroad_g1.paa","civ"],
+			["\EMU_cars\Data\emu_offroad_digi1.paa","reb"],
+			["\EMU_cars\Data\emu_offroad_digi_dark.paa","reb"],
+			["\EMU_cars\Data\emu_offroad_digi_dark2.paa","reb"],
+			["\EMU_cars\Data\emu_offroad_t1.paa","reb"]
 		];
 	};
 	
@@ -132,7 +137,14 @@ switch (_vehicle) do
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_vrana_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_wave_co.paa","civ"],
 			["\a3\air_f\Heli_Light_01\Data\Skins\heli_light_01_ext_digital_co.paa","reb"],
-			["#(argb,8,8,3)color(1,1,1,0.8)","med"]
+			["#(argb,8,8,3)color(1,1,1,0.8)","med"],
+			["\EMU_heli\Data\emu_heli_light.paa","reb"],
+			["\EMU_heli\Data\emu_heli_light_2.paa","reb"],
+			["\EMU_heli\Data\emu_heli_light_yel.paa","reb"],
+			["\EMU_heli\Data\emu_heli_des.paa","civ"],
+			["\EMU_heli\Data\emu_heli_navy.paa","civ"],
+			["\EMU_heli\Data\emu_heli_wh.paa","civ"],
+			["\EMU_heli\Data\emu_heli_blk.paa","civ"]
 		];
 	};
 	
@@ -206,7 +218,82 @@ switch (_vehicle) do
 			["DAR_ExplorerPPV\Data\black.paa","cop"]
 		];
 	};
-
+	
+	case "bilou_offroad_medic":
+	{
+		_ret = 
+		[
+			["\bilou_cars\Data\pickup_medic.paa","med"]
+		];
+	};
+	
+	case "bilou_suv_medic":
+	{
+		_ret = 
+		[
+			["\bilou_cars\Data\suv_medic.paa","med"],
+			["\bilou_cars\Data\suv_medic_grey.paa","med"]
+		];
+	};
+	
+	case "DAR_ImpalaCiv":
+	{
+		_ret = 
+		[
+			["Impala\Data\Body_co.paa","civ"],
+			["Impala\Data\BodyBlack_co.paa","civ"],
+			["Impala\Data\BodyRed_co.paa","civ"],
+			["Impala\Data\BodyBlue_co.paa","civ"],
+			["Impala\Data\BodySilver_co.paa","civ"]
+		];
+	};
+	
+	case "DAR_TahoeCiv":
+	{
+		_ret = 
+		[
+			["DAR_Tahoe\Data\Body_co.paa","civ"],
+			["DAR_Tahoe\Data\BodyBlack_co.paa","civ"],
+			["DAR_Tahoe\Data\BodyRed_co.paa","civ"],
+			["DAR_Tahoe\Data\BodyBlue_co.paa","civ"],
+			["DAR_Tahoe\Data\BodySilver_co.paa","civ"]
+		];
+	};
+	
+	case "DAR_ChargerCiv":
+	{
+		_ret = 
+		[
+			["\DAR_Charger\Data\body_co.paa","civ"],
+			["\DAR_Charger\Data\body_blue.paa","civ"],
+			["\DAR_Charger\Data\body_red.paa","civ"],
+			["\DAR_Charger\Data\body_white.paa","civ"],
+			["\DAR_Charger\Data\bodysilver_co.paa","civ"]
+		];
+	};
+	
+	case "SAL_AudiCiv":
+	{
+		_ret = 
+		[
+			["SAL_A4\Data\Body_co.paa","civ"],
+			["SAL_A4\Data\Body_coRed.paa","civ"],
+			["SAL_A4\Data\Body_coSilver.paa","civ"],
+			["SAL_A4\Data\Body_coBlack.paa","civ"]
+		];
+	};
+	
+	case "DAR_ChallengerCivWhite":
+	{
+		_ret = 
+		[
+			["DAR_Challenger\Data\Body_co.paa","civ"],
+			["DAR_Challenger\Data\Body_coRed.paa","civ"],
+			["DAR_Challenger\Data\Body_coOrange.paa","civ"],
+			["DAR_Challenger\Data\Body_coBlack.paa","civ"]
+		];
+	};
+	
 };
 
 _ret;

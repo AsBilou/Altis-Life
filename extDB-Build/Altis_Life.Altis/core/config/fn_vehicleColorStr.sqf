@@ -25,6 +25,11 @@ switch (_vehicle) do
 			case 6: {_color = "Black"};
 			case 7: {_color = "Black"};
 			case 8: {_color = "Taxi"};
+			case 9: {_color = "Blanc/Jaune/Violet"};
+			case 10: {_color = "Digital"};
+			case 11: {_color = "Digital Olive"};
+			case 12: {_color = "Digital Dark"};
+			case 13: {_color = "Forest"};
 		};
 	};
 	
@@ -131,6 +136,13 @@ switch (_vehicle) do
 			case 12: {_color = "Waves Blue"};
 			case 13: {_color = "Rebel Digital"};
 			case 14: {_color = "EMS White"};
+			case 15: {_color = "Urban"};
+			case 16: {_color = "Urban Violet"};
+			case 17: {_color = "Pumpkin"};
+			case 18: {_color = "Desert"};
+			case 19: {_color = "Navy"};
+			case 20: {_color = "White"};
+			case 21: {_color = "Black Violet"};
 		};
 	};
 	
@@ -221,6 +233,82 @@ switch (_vehicle) do
 			case 0: {_color = "Stealth Black"};
 		};
 	};
+	
+	case "bilou_offroad_medic":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Medic"};
+		};
+	};
+	
+	case "bilou_suv_medic":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Medic Blanc"};
+			case 1: {_color = "Medic Gris"};
+		};
+	};
+	
+	case "DAR_ImpalaCiv":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Blanc"};
+			case 1: {_color = "Noir"};
+			case 2: {_color = "Rouge"};
+			case 3: {_color = "Bleu"};
+			case 4: {_color = "Gris"};
+		};
+	};
+	
+	case "DAR_TahoeCiv":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Blanc"};
+			case 1: {_color = "Noir"};
+			case 2: {_color = "Rouge"};
+			case 3: {_color = "Bleu"};
+			case 4: {_color = "Gris"};
+		};
+	};
+	
+	case "DAR_ChargerCiv":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Noir"};
+			case 1: {_color = "Bleu"};
+			case 2: {_color = "Rouge"};
+			case 3: {_color = "Blanc"};
+			case 4: {_color = "Gris"};
+		};
+	};
+	
+	case "SAL_AudiCiv":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Blanc"};
+			case 1: {_color = "Rouge"};
+			case 2: {_color = "Gris"};
+			case 3: {_color = "Noir"};
+		};
+	};
+	
+	case "DAR_ChallengerCivWhite":
+	{
+		switch (_index) do
+		{
+			case 0: {_color = "Blanc"};
+			case 1: {_color = "Rouge"};
+			case 2: {_color = "Orange"};
+			case 3: {_color = "Noir"};
+		};
+	};
+	
 };
 
 _color;
