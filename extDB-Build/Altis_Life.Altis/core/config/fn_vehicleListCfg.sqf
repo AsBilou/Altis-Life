@@ -25,9 +25,9 @@ switch (_shop) do
 	{
 		_return = [
 			["C_Offroad_01_F",10000],
-			["b_offroad_medic",10000],
-			["b_suv_medic",15000],
-			["b_suv_medic_grey",15000],
+			["bilou_offroad_medic",10000],
+			["bilou_suv_medic",15000],
+			["bilou_suv_medic_grey",15000],
 			["DAR_TahoeEMS",20000],
 			["I_Truck_02_medical_F",25000],
 			["O_Truck_03_medical_F",45000],
@@ -37,7 +37,7 @@ switch (_shop) do
 	
 	case "med_air_hs": {
 		_return = [
-			["b_heli_medic",50000],
+			["bilou_heli_medic",50000],
 			["RSPack_1d",75000],
 			["b_orca_medic",75000],
 			["EMD_CH49_Mohawk_FG",100000]
