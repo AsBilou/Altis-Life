@@ -44,6 +44,10 @@ switch(_shop) do
 				{	
 					_tools pushBack ["Medikit",nil,1000];
 					_tools pushBack ["NVGoggles_OPFOR",nil,2000];
+					if(__GETC__(life_coplevel) > 9) then //Caporal
+					{
+						_tools pushBack ["B_UAVTerminal",nil,2000];
+					};
 				};
 				["Altis Cop Shop",_tools];
 			};

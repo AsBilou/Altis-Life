@@ -77,7 +77,7 @@ switch (_shop) do
 			["B_Truck_01_transport_F",275000],
 			["O_Truck_03_transport_F",200000],
 			["O_Truck_03_covered_F",250000],
-			["B_Truck_01_box_F",350000],
+			["B_Truck_01_covered_F",350000],
 			["O_Truck_03_device_F",450000]
 		];	
 	};
@@ -189,8 +189,7 @@ switch (_shop) do
 		_return =
 		[
 			["B_Heli_Light_01_F",253000],
-			["O_Heli_Light_02_unarmed_F",750000],
-			["Mohawk_civ1_FG",1000000]
+			["O_Heli_Light_02_unarmed_F",750000]
 		];
 	};
 	
@@ -214,9 +213,12 @@ switch (_shop) do
 					if(__GETC__(life_coplevel) > 7) then
 					{
 						_return pushBack
-						["kyo_MH47E_base",200000];
-						_return pushBack
 						["IVORY_T6A_1",500000];
+						if(__GETC__(life_coplevel) > 9) then
+						{
+							_return pushBack
+							["kyo_MH47E_base",200000];
+						};
 					};
 				};
 			};
@@ -252,6 +254,22 @@ switch (_shop) do
 			["C_Boat_Civil_01_police_F",20000],
 			["B_Boat_Armed_01_minigun_F",75000],
 			["B_SDV_01_F",100000]
+		];
+	};
+	
+	case "ent_truck":
+	{
+		_return =
+		[
+			["B_Truck_01_box_F",450000]
+		];
+	};
+	
+	case "ent_air":
+	{
+		_return =
+		[
+			["Mohawk_civ1_FG",1000000]
 		];
 	};
 };

@@ -147,6 +147,10 @@ switch (_filter) do
 			["B_TacticalPack_blk",nil,2500],
 			["B_Carryall_cbr",nil,3500]
 		];
+		if(__GETC__(life_coplevel) > 9) then
+		{
+			_ret pushBack ["B_UAV_01_backpack_F",nil,4000];
+		};
 	};
 };
 
