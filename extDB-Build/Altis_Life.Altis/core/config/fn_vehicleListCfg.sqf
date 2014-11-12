@@ -224,7 +224,7 @@ switch (_shop) do
 		if(__GETC__(life_coplevel) > 3) then
 		{
 			_return pushBack
-			["B_Heli_Light_01_F",75000];
+			["demian2435_police_helicopter",75000];
 			if(__GETC__(life_coplevel) > 4) then
 			{
 				_return pushBack
