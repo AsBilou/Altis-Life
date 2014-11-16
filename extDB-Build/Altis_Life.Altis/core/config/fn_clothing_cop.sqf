@@ -18,48 +18,61 @@ switch (_filter) do
 {
 	//Uniforms
 	case 0:
-	{
-		_ret pushBack ["demian2435_police_man_uniform",nil,25];
-		_ret pushBack ["bilou_uni_PR",nil,25];
-		if(__GETC__(life_coplevel) > 1) then
+	{	
+		switch (__GETC__(life_coplevel)) do 
 		{
-			_ret pushBack ["bilou_uni_PA",nil,25];
-			if(__GETC__(life_coplevel) > 2) then
+			case 1:
+			{
+				_ret pushBack ["bilou_uni_PR",nil,25];
+			};
+			case 2:
+			{
+				_ret pushBack ["bilou_uni_PA",nil,25];
+			};
+			case 3:
 			{
 				_ret pushBack ["bilou_uni_PC",nil,25];
-				if(__GETC__(life_coplevel) > 3) then
-				{
-					_ret pushBack ["bilou_uni_PS",nil,25];
-					if(__GETC__(life_coplevel) > 4) then
-					{
-						_ret pushBack ["bilou_uni_PSC",nil,25];
-						if(__GETC__(life_coplevel) > 5) then
-						{
-							_ret pushBack ["bilou_uni_PM",nil,25];
-							if(__GETC__(life_coplevel) > 6) then
-							{
-								_ret pushBack ["bilou_uni_PL",nil,25];
-								_ret pushBack ["rpima_uniform",nil,25];
-								if(__GETC__(life_coplevel) > 7) then
-								{
-									_ret pushBack ["bilou_uni_PCa",nil,25];
-									if(__GETC__(life_coplevel) > 8) then
-									{
-										_ret pushBack ["bilou_uni_PCom",nil,25];
-										if(__GETC__(life_coplevel) > 9) then
-										{
-											_ret pushBack ["bilou_uni_PCP",nil,25];
-										};
-									};
-								};
-							};
-						};
-					};
-				};
 			};
+			case 4:
+			{
+				_ret pushBack ["bilou_uni_PS",nil,25];
+			};
+			case 5:
+			{
+				_ret pushBack ["bilou_uni_PSC",nil,25];
+			};
+			case 6:
+			{
+				_ret pushBack ["bilou_uni_PM",nil,25];
+			};
+			case 7:
+			{
+				_ret pushBack ["bilou_uni_PL",nil,25];
+			};
+			case 8:
+			{
+				_ret pushBack ["bilou_uni_PCa",nil,25];
+			};
+			case 9:
+			{
+				_ret pushBack ["bilou_uni_PCom",nil,25];
+			};
+			case 10:
+			{
+				_ret pushBack ["bilou_uni_PCP",nil,25];
+			};
+			default 
+			{
+				_ret pushBack ["demian2435_police_man_uniform",nil,25];
+			};
+		};
+		if(__GETC__(life_coplevel) > 6) then
+		{
+			_ret pushBack ["rpima_uniform",nil,25];
 		};
 		_ret pushBack ["U_B_Wetsuit",nil,25];
 		_ret pushBack ["U_C_Scientist",nil,25];
+		
 	};
 	
 	//Hats
