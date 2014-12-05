@@ -24829,7 +24829,7 @@ class Mission
 		};
 		class Item243
 		{
-			position[]={8659.2197,124.68779,15415.055};
+			position[]={8841.3066,130.97505,15342.763};
 			name="cocaine_1_1";
 			text="Champ de Coca";
 			type="waypoint";
